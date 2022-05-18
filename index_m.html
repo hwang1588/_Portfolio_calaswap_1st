@@ -1,0 +1,1160 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <!--  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">-->
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
+  <meta name="HandheldFriendly" content="true">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="theme-color" content="#000008">
+  <meta name="naver-site-verification" content="" />
+  <meta name="google-site-verification" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:title" content="Myce.io">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://myce.io">
+  <meta property="og:image" content="img/img_og.jpg">
+  <meta name="description" content="All of Event,
+For Everyone Happy In the World!">
+  <meta name="og:description" content="All of Event,
+For Everyone Happy In the World!">
+  <meta name="keyword" content="Myce.io">
+  <meta name="og:keyword" content="Myce.io">
+  <title>MYCE</title>
+  <!--모바일전용 있을경우<script>
+		function isMobile() {
+			var UserAgent = navigator.userAgent;
+			if (UserAgent.match(/iPhone|iPod|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+		if (isMobile()) {
+			location.href = "/index_m.html"; //모바일페이지
+		} else {}
+	</script>-->
+  <link rel="shortcut icon" href="img/favicon.ico?1" type="image/x-icon">
+  <link rel="apple-touch-icon" href="./resources/images/layout/apple-touch-icon.png">
+  <!--css:S-->
+  <link rel="stylesheet" type="text/css" href="m_css/style.css">
+  <!--css:E-->
+
+  <!--Js:S-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/template.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+  <!--레이아웃 로드:S-->
+  <script>
+    $(function() {
+      //$('header').load('header.html');
+      $('#mobile_header').load('m_header.html');
+      $('footer').load('footer.html');
+      $('#mobile_footer').load('m_footer.html');
+    });
+  </script>
+  <!--레이아웃 로드:E-->
+  <!--Js:E-->
+
+
+</head>
+
+<body>
+
+  <!--영상:s--
+  <div class="namok_display">
+    <div class="namok_display_area">
+      <ul class="namok_display_list">
+        <li class="li mb1">
+          <p class="mov">
+            <video src="video/yanolja.mp4" muted loop playsinline=""></video>
+          </p>
+        </li>
+        <li class="li mb5">
+          <p class="img"><img src="img/company_2.jpg" alt=""></p>
+        </li>
+      </ul>
+    </div>
+    <div class="">
+      <h1 class="text-danger">
+        asdfasdfasdf
+      </h1>
+    </div>
+  </div>
+  <!--영상:e-->
+
+  <div id="wrapper">
+    <header>
+      <div class="container-fluid mw-1232px px-4">
+        <div class="dropmenu row align-items-center">
+          <div class="col-3">
+            <a href="index.html" class="logo ">
+              <img src="img/logo.png" alt="namok" class="d-block float-start">
+            </a>
+          </div>
+          <div class="col-9">
+            <div class="lang">
+              <a href="#"><img src="img/icon_lang.svg" alt="언어 전환" class="massive_lang"></a>
+              <ul class="lang_list">
+                <li class="lang_kr">
+                  <a href="index_m_ko.html" alt="국문 홈페이지로 전환">KR</a>
+                </li>
+                <li class="lang_en">
+                  <a href="index_m.html" alt="영문 홈페이지로 전환">EN</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container-fluid text-white mw-1232px px-0" style="padding-top: 91px">
+      <div class="row">
+        <div class="col-12">
+          <p class="nunito header_title fw-900 text-center lh-32px wow bounceInUp">
+            All of Event,<br>
+            For Everyone Happy In the World
+          </p>
+        </div>
+        <center>
+          <a class="text-decoration-none" onclick="window.open('img/myce_renew_en.pdf')" target="_blnak">
+            <!--            <a class="text-decoration-none">-->
+            <button type="button" class="btn btn-ready2 bg-white mx-auto text-start fs-16px h-40px mt-32px wow fadeInDown rounded-8px" data-wow-duration="2s" data-wow-delay="1s" style="padding:0 23px; width: 200px">
+              White paper
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill float-end mt-1" viewBox="0 0 16 16">
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+              </svg>
+            </button>
+          </a>
+        </center>
+      </div>
+      <div class="row">
+
+        <div class="col-12 mt-32px wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
+          <center>
+            <a class="text-decoration-none" onclick="window.open('https://t.me/myce_official')">
+              <img src="img/icon_telegram.svg" class="cursor-pointer me-3 hover_img2">
+            </a>
+            <a class="text-decoration-none" onclick="window.open('https://open.kakao.com/o/g2GiyUFc')">
+              <img src="img/icon_kakao.svg" class="cursor-pointer me-3 hover_img2">
+            </a>
+            <a class="text-decoration-none" onclick="window.open('https://www.facebook.com/myce.official')">
+              <img src="img/icon_facebook.svg" class="cursor-pointer me-3 hover_img2">
+            </a>
+            <a class="text-decoration-none" onclick="window.open('https://myce-token.medium.com/')">
+              <img src="img/icon_medium.svg" class="cursor-pointer me-3 hover_img2">
+            </a>
+            <a class="text-decoration-none" onclick="window.open('https://twitter.com/MYCE_official')">
+              <img src="img/icon_twitter.svg" class="cursor-pointer hover_img2">
+            </a>
+          </center>
+        </div>
+      </div>
+
+      <div class="">
+        <!--				<div class="col-12 mt-500px"></div>-->
+
+
+        <div class="col-12 mt-272px animation-move">
+          <img src="img/icon_down.svg" class="d-block mx-auto" style="opacity: 0.5">
+          <img src="img/icon_down.svg" class="d-block mx-auto my-1" style="opacity: 0.75">
+          <img src="img/icon_down.svg" class="d-block mx-auto">
+        </div>
+
+        <div class="row mt-153px" style="margin-top: 190px !important;">
+
+          <div class="col-12 ">
+            <center>
+              <div class="btn-group">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="btn btn-about-myce mx-auto text-start fs-24px w-56px h-56px mb-31px wow fadeInLeft me-2 rounded-8px" data-wow-duration="1s" aria-controls="" aria-current="true" aria-label="Slide 1" style="padding-right: 46px">
+                  <img src="img/main-1.svg">
+                </button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class=" btn btn-ready mx-auto text-start fs-24px w-56px h-56px mb-31px wow fadeInLeft me-2 rounded-8px" data-wow-duration="1s" aria-current="true" aria-label="Slide 2" style="padding-right: 46px">
+                  <center><img src="img/main-2.svg"></center>
+                </button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="btn btn-ready mx-auto text-start fs-24px w-56px h-56px mb-31px wow fadeInLeft me-2 rounded-8px" data-wow-duration="1s" aria-current="true" style="padding-right: 46px">
+                  <img src="img/main-3.svg">
+                </button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" class="btn btn-ready mx-auto text-start fs-24px w-56px h-56px mb-31px wow fadeInLeft me-2 rounded-8px" data-wow-duration="1s" aria-current="true" style="padding-right: 46px">
+                  <img src="img/main-4.svg">
+                </button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" class="btn btn-ready mx-auto text-start fs-24px w-56px h-56px mb-31px wow fadeInLeft rounded-8px" data-wow-duration="1s" aria-current="true" style="padding-right: 46px">
+                  <img src="img/main-5.svg">
+                </button>
+              </div>
+            </center>
+          </div>
+
+          <div class="col-12">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="100000">
+                  <div class="d-block w-100">
+                    <p class="nunito fs-24px text-f8f8f8 fw-900 mb-4 text-center">about MYCE</p>
+                    <p class="text-f8f8f8 fw-normal fs-14px lh-20px px-4">
+                      Bloom' aims to transform the life commerce market based on organized and stable digital governance by integrating myecosystem, where countless companies are intertwined, based on a new market that has not been attempted in Korea.<br><br>
+
+                      As a space-based on-demand service, we provide verified content and services by providing various event information, so that everyone can enjoy various gatherings anytime, anywhere, and we will increase consumer satisfaction.<br><br>
+
+                      In order to be widely used in real life, MYCE tokens are planned to be used by ordinary users who pay for event services with cash or credit cards. In the case of MYCE tokens, their uses and values will become more diverse as the network of operators increases. By enabling the evaluation of the high completeness/safety of product providers (sellers), we want to increase the reliability of users and reflect opinions to create a structure in which both platform service providers (developers) and product providers (sellers) can strive to provide better services.<br><br>
+
+                      - United Ceremonia Foundation was established in Singapore to revitalize the stagnant online and offline markets, and developed and created MYCE tokens. (Established date: November 3, 2020)
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="100000">
+                  <div class="d-block w-100">
+                    <p class="nunito fs-24px text-f8f8f8 fw-900 mb-4 text-center">Project message</p>
+                    <p class="text-f8f8f8 fw-normal fs-14px lh-20px px-4">
+                      Dear MYCE holders.<br><br>
+
+                      In November 2020, the foundation was founded in Singapore and issued MYCE (tokens). Our team started developing the platform with the aim of establishing a "real-life gathering information platform" where users can share information and places related to gathering using tokens payment system. With more a year of effort, we launched a "Bloom" app in November 2021 that allows users to pay for real-life MYCE based on O2O (Online to Offline) services.<br><br>
+
+                      Beyond the payment method, our team have begun upgrading NFT membership in 2022 to expand the ecosystem of MYCE. NFT holders are able to participate in various events and compensation for participation will be provided through community participation, expansion of staking programs, and regular airdrop events.<br><br>
+
+                      In the fourth quarter of 2022, we aim to open the test version of the NFT service. Our team committed to developing differentiated services to increase competitiveness through expansion of NFT membership services and continue to preoccupy the future market.<br><br>
+
+                      Thank you for your support, and please generously support the bright future of MYCE.<br><br>
+
+                      In February of 2022,
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="100000">
+                  <div class="d-block w-100">
+                    <p class="nunito fs-24px text-f8f8f8 fw-900 mb-4 text-center">MYCE vision</p>
+                    <p class="text-f8f8f8 fw-normal fs-14px lh-20px px-5">
+                      Untact consumption trends following COVID-19 highlight businesses using digital tech such as online to offline (O2O) and non-face-to-face purchases, and corporate digital transformation has established itself as an essential survival strategy.<br><br>
+
+                      The MYCE project aims to establish and service a mechanism to solve problems through coordination and consultation while ensuring the participation of various actors such as individuals (users), companies (sellers), and managers (platforms).<br><br>
+
+                      The MYCE project aims to solve this problem by distributing it across the network and allowing participants to jointly record and manage it to prevent problems such as manipulation from a specific object in the above type of system mechanism.<br><br>
+
+                      It’s a distributed structure based on "blockchain technology" that reduces fees through transactions without an authorized third party, eliminates the need for a centralized organization or authorized third party to ensure reliability (transparency), and fundamentally blocks all transactions on the central server.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="100000">
+                  <div class="d-block w-100  px-0">
+                    <p class="nunito fs-24px text-f8f8f8 fw-900 mb-4 text-center">Distribution</p>
+                    <p class="text-f8f8f8 fw-normal fs-14px lh-20px">
+                    <table class="w-100 mx-auto">
+                      <colgroup>
+                        <col width="258px">
+                        <col width="35%">
+                        <col width="">
+                        <col width="">
+                      </colgroup>
+                      <tbody class="fs-14px">
+                        <tr class="table_bg  border-bottom">
+                          <th class="text-center py-1">Project Name</th>
+                          <td colspan="3" class="ps-4 border-start">MYCE (MY Ceremonial Event)</td>
+                        </tr>
+                        <tr class="border-bottom">
+                          <th class="text-center py-1">Symbol</th>
+                          <td colspan="3" class="ps-4 border-start">MYCE</td>
+                        </tr>
+                        <tr class="table_bg  border-bottom">
+                          <th class="text-center py-1">Total Supply</th>
+                          <td class="ps-4 border-start">10,000,000,000</td>
+                          <td colspan="2">MYCE</td>
+                        </tr>
+                        <tr class=" border-bottom">
+                          <th rowspan="6" class="text-center ">Allocation</th>
+                          <td class="ps-4 border-start py-1">Marketing &amp; User Incentive</td>
+                          <td>3,000,000,000</td>
+                          <td>30%</td>
+                        </tr>
+                        <tr class="table_bg  border-bottom">
+                          <td class="ps-4 border-start py-1">Platform Operation</td>
+                          <td>2,000,000,000</td>
+                          <td>20%</td>
+                        </tr>
+                        <tr class=" border-bottom">
+                          <td class="ps-4 border-start py-1">Strategic Partnership</td>
+                          <td>2,000,000,000</td>
+                          <td>20%</td>
+                        </tr>
+                        <tr class="table_bg  border-bottom">
+                          <td class="ps-4 border-start py-1">Team &amp; Advisor</td>
+                          <td>1,000,000,000</td>
+                          <td>10%</td>
+                        </tr>
+                        <tr class=" border-bottom">
+                          <td class="ps-4 border-start py-1">Reserve Fund</td>
+                          <td>2,000,000,000</td>
+                          <td>20%</td>
+                        </tr>
+                        <tr class="table_bg">
+                          <td class="ps-4 border-start py-1">Total</td>
+                          <td>10,000,000,000</td>
+                          <td>100%</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="100000">
+                  <div class="d-block w-100">
+                    <p class="nunito fs-24px text-f8f8f8 fw-900 mb-4 text-center">Technology</p>
+                    <p class="text-f8f8f8 fw-normal fs-14px lh-20px px-4">Using smart contract systems, in the service process, all nodes first try their best to find the consensus password and receive compensation, and blocks generated by the agreement process through competition are distributed and stored across all nodes, so they cannot be forged or altered later. As a consensus and proof mechanism, the Proof of Work (PoW) method will be used, and compensation for this will be given as a sidechain-based utility token (BOUT).<br><br>
+
+                      The Ethereum-based blockchain system uses a smart contract method that sets the terms of the transaction, automatically concludes the contract, executes the transaction according to the terms of the transaction, and stores the transaction in the Ethereum blockchain.<br><br>
+
+                      Each node that builds and configures a secret voting system based on the blockchain network codes the voting process, writes it as a smart contract, and creates transactions containing smart contracts and stores them in the blockchain. Based on the blockchain network, it includes a voter registration process using non-interactive Young-Knowledge Proof for multiple candidates and multiple voters, a voting process using 1-out-of-k non-interactive Young-Knowledge Proof, and a full-search counting process. It will also provide a secret electronic voting system and method that will code the voting process, write it in a smart contract, record it on the blockchain, and safely proceed with secret electronic voting for multiple candidates.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <center>
+              <div class="btn-group mt-3">
+                <button class="bg-FF6594 border-0 rounded-8px me-3 fs-1 px-3 mb-1" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill text-white mb-1" viewBox="0 0 16 16">
+                    <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+                  </svg>
+                </button>
+                <button class="bg-FF6594 border-0 rounded-8px ms-3 fs-1 px-3 mb-1" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-white mb-1" viewBox="0 0 16 16">
+                    <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                  </svg>
+                </button>
+              </div>
+            </center>
+          </div>
+        </div>
+        <div class="row mt-200px gx-2">
+          <!--
+          <div class="col-3">
+            <img src="img/ecosystem.svg" class="mt-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+          </div>
+-->
+          <div class="col-12 mt-160px">
+            <p class="nunito fs-24px text-f8f8f8 fw-900 mb-4 wow fadeInRight text-center" data-wow-duration="2s">Ecosystem</p>
+            <p class="text-f8f8f8 fw-normal fs-12px lh-20px mb-4 text-center px-4">
+              The Bloom platform is a service that provides use MYCE in real-life payment areas. MYCE becomes a token that proves itself as real goods, not just the value of stake tokens, and can be used to participate in economic activities in conjunction with utility tokens (BOUT) and other network blockchain.<br><br>
+
+              Utility tokens are not applications that use non-deposit methods in user asset management, but when users use MYCE tokens, they are paid
+              according to their economic activities and governance contributions and exist in the form of major voting rights in making decisions.
+            </p>
+            <center>
+              <div class="mt-4">
+                <a class="text-decoration-none" onclick="window.open('https://www.cashierest.com/stock/coinstock')">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="btn btn-ready mx-auto text-start fs-16px me-3 rounded-8px w-160px" aria-current="true" aria-label="Slide 1">
+                    Cashierset
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill float-end mt-1" viewBox="0 0 16 16">
+                      <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+                    </svg>
+                  </button>
+                </a>
+                <a class="text-decoration-none" onclick="window.open('https://global.bittrex.com/Market/Index?MarketName=USDT-MYCE')">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="btn btn-ready mx-auto text-start fs-16px rounded-8px w-160px" aria-current="true" aria-label="Slide 1">
+                    BITTREX
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill float-end mt-1" viewBox="0 0 16 16">
+                      <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+                    </svg>
+                  </button>
+                </a>
+              </div>
+            </center>
+          </div>
+        </div>
+
+        <div class="row mt-160px gx-2">
+          <div class="col-12">
+            <p class="nunito fs-24px text-f8f8f8 fw-900 mb-4 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s" style="margin-bottom: 28px;">MYCE Feature</p>
+
+          </div>
+        </div>
+        <div class="container-fluid mw-1056px px-0">
+          <div class="row gx-5">
+            <div class="col-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+              <div class="h-100 bg-white-60 shadow-myce rounded-8px p-2rem mx-4">
+                <div class="col-12 ">
+                  <img src="img/myce_token.svg" class="float-start mb-3 hover_img w-25">
+                </div>
+                <div class="col-12 clear-both">
+                  <p class="nunito fs-18px text-232323 fw-900">MYCE Token</p>
+                  <p class="fs-14px text-232323 fw-normal mt-4">MYCE token is an ERC20 token issued based on Ethereum. It can be said that the basic stability of Ethereum has been sufficiently verified.<br><br>
+
+                    MYCE tokens plan to be used in the form of paying for the service of the calling platform to be used in real life, which will provide a certain level of unique discount. This motivates users to use the service, and at the same time, holders can simultaneously invest in the value increase of their MYCE tokens as the platform's business expands, increasing their effectiveness and value profits on both sides of possession or use.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 wow fadeInRight mt-5" data-wow-duration="1s" data-wow-delay="0.7s">
+              <div class="h-100 bg-white-60 shadow-myce rounded-8px p-2rem mx-4">
+                <div class="col-12 mb-4">
+                  <img src="img/bout.svg" class="mb-2 hover_img w-25">
+                </div>
+                <div class="col-12 clear-both">
+                  <p class="nunito fs-18px text-232323 fw-900">Utility Token (BOUT)
+                  </p>
+                  <p class="fs-14px text-232323 fw-normal mt-4">
+                    Utility tokens are sidechain-based tokens that make it easy to exchange all utility tokens, including MYCE, on the MYCE network, such as Uniswap or Balancer, which allows you to freely trade or exchange tokens that exist on Ethereum.<br><br>
+
+                    Users can use utility tokens to obtain service rights through the following several methods. It can also be used in conjunction with the Bloom platform, which shares one axis of the MYCE network ecosystem, to earn additional profits.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mt-5 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+              <div class="h-100 bg-white-60 shadow-myce rounded-8px p-2rem mx-4">
+                <div class="col-12 ">
+                  <img src="img/trust.svg" class="float-start mb-3 hover_img w-25">
+                </div>
+                <div class="col-12 clear-both">
+
+                  <p class="nunito fs-18px text-232323 fw-900 mt-4">Trust / Transparency-based
+                    <br>
+                  </p>
+                  <p class="fs-14px text-232323 fw-normal mt-4">In the service process, all nodes first try their best to find the consensus password and receive compensation, and blocks generated by the consensus process through competition are distributed and stored across all nodes, so they cannot be forged or altered later. Users with secret keys can track their transactions recorded in the blockchain in real time and conduct accounting audits.<br><br>
+
+                    As a consensus and proof mechanism, the Proof of Work(PoW) method will be used, and compensation for this will be given as a sidechain-based utility token (BOUT), respectively.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mt-5 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.7s">
+              <div class="h-100 bg-white-60 shadow-myce rounded-8px p-2rem mx-4">
+                <div class="col-12 mb-4">
+                  <img src="img/bloom.svg" class="mb-1 hover_img w-25">
+                </div>
+                <div class="col-12 clear-both">
+                  <p class="nunito fs-18px text-232323 fw-900 mt-4">Bloom platform
+                  </p>
+                  <p class="fs-14px text-232323 fw-normal mt-4">
+                    Bloom platform provides use in real-life payment areas through MYCE.<br><br>
+
+                    Users can stake their MYCE on the Bloom platform and receive services corresponding to the value of their assets. The quantity of MYCE to be used is exchanged at a certain rate with the legal currency according to the actual MYCE market price, and the exchange cost is determined by the ratio of the amount of currency that can maintain a stable exchange value.<br><br>
+
+                    It has the advantage of maintaining a stable token price because it secures a service with substance, and providing services flexibly even if the number of token holders increases rapidly.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--
+        <div class="row">
+          <div class="col-12">
+            <div class="sun animation-move"></div>
+          </div>
+        </div>
+-->
+        <div class="row mt-160px align-items-center mb-4 px-2">
+          <div class="col-sm-4 col-7">
+            <p class="nunito fs-24px text-f8f8f8 fw-900 text-start mb-0">Team Members</p>
+          </div>
+          <div class="col-sm-4 col-5 pt-1">
+            <button class="bg-FF6594 border-0 rounded-8px me-3" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="currentColor" class="bi bi-caret-left-fill text-white mb-1" viewBox="0 0 16 16">
+                <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+              </svg>
+            </button>
+            <button class="bg-FF6594 border-0 rounded-8px" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="currentColor" class="bi bi-caret-right-fill text-white mb-1" viewBox="0 0 16 16">
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="row wow fadeInUp" data-wow-duration="2s">
+          <div class="col-12">
+            <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="100000">
+                  <div class="d-block w-100 px-2">
+                    <div class="row">
+                      <div class="col-4 link_in">
+                        <center>
+                          <a onclick="window.open('https://www.linkedin.com/in/yoonsung-k-15275960/')">
+                            <img src="img/team1.png" class="w-100">
+                          </a>
+                        </center>
+                      </div>
+                      <div class="col-4">
+                        <center>
+                          <a onclick="window.open('https://www.linkedin.com/in/mattehw-ock-90124090')">
+
+                            <img src="img/team2.png" class="w-100">
+                          </a>
+                        </center>
+                      </div>
+                      <div class="col-4">
+                        <center>
+                          <a onclick="window.open('https://www.linkedin.com/in/taekwang-lee-444b981b5/')">
+
+                            <img src="img/team3.png" class="w-100">
+                          </a>
+                        </center>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="100000">
+                  <div class="d-block w-100 px-2">
+                    <div class="row">
+                      <div class="col-4 link_in">
+                        <center>
+                          <a onclick="window.open('https://www.linkedin.com/in/%EC%9D%98%EC%84%AD-%EC%98%A4-8089b01b6/')">
+
+                            <img src="img/team4.png" class="w-100">
+                          </a>
+                        </center>
+                      </div>
+                      <div class="col-4">
+                        <center>
+                          <a onclick="window.open('https://www.linkedin.com/in/%EC%A4%80-%EB%B0%95-237105227/')">
+
+                            <img src="img/team5.png" class="w-100">
+                          </a>
+                        </center>
+                      </div>
+                      <div class="col-4">
+                        <center>
+                          <a onclick="window.open('https://www.linkedin.com/in/%EB%B4%89%EC%A3%BC-%EA%B0%95-b65106227/')">
+
+                            <img src="img/team6.png" class="w-100">
+                          </a>
+                        </center>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="100000">
+                  <div class="d-block w-100 px-2">
+                    <div class="row">
+                      <div class="col-4 link_in">
+                        <center>
+                          <a onclick="window.open('https://www.linkedin.com/in/%EC%9D%80%EC%A3%BC-%EA%B9%80-8540a6227/')">
+
+                            <img src="img/team7.png" class="w-100">
+                          </a>
+                        </center>
+                      </div>
+                      <div class="col-4">
+                        <center>
+
+                        </center>
+                      </div>
+                      <div class="col-4">
+                        <center>
+                        </center>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--위로가기:s-->
+    <a href="#" id="c-go-top" class="c-go-top animation-move">
+      <i class="bi bi-arrow-up"></i>
+      TOP
+    </a>
+    <!--위로가기:e-->
+  </div>
+  <div id="wrapper2">
+    <div class="container-fluid mw-1232px px-0">
+      <div class="row mt-160px px-2">
+        <div class="col-12">
+          <p class="nunito fs-24px mb-31px text-f8f8f8 fw-900">Roadmap</p>
+        </div>
+      </div>
+      <div class="row mb-26px" style="margin-top: 10px">
+
+      </div>
+      <div class="row gx-0">
+        <div class="col-12">
+          <img src="img/text.png" class="w-100">
+          <!--
+          <div class="pulse-box">
+            <div class="pulse-css"></div>
+
+          </div>
+-->
+        </div>
+
+      </div>
+
+
+      <div class="row mt-160px px-2">
+        <div class="col-sm-4 col-7">
+          <p class="nunito fs-24px mb-4 text-f8f8f8 fw-900">News & Media</p>
+        </div>
+        <div class="col-sm-4 col-5 pt-1">
+          <button class="bg-FF6594 border-0 rounded-8px me-3" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="prev">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill text-white pb-1" viewBox="0 0 16 16">
+              <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+            </svg>
+          </button>
+          <button class="bg-FF6594 border-0 rounded-8px" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-white pb-1" viewBox="0 0 16 16">
+              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="row wow fadeInUp" data-wow-duration="2s">
+        <div class="col-12 px-4">
+          <div id="carouselExampleCaptions3" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active px-2" data-bs-interval="100000">
+                <center>
+                  <div class="row">
+                    <div class="col-6 mx-auto">
+                      <a href="https://myce-token.medium.com/myce-business-information-session-82be18025ffa" target="_blank" style="width: 100%; height: 100%; display: block;">
+                        <div class="w-100 h-100" style="border: 1px solid #fff; border-radius: 8px; background-color: #f8f8f8;">
+                          <img src="img/news-3.jpg" style="border-top-left-radius: 8px; border-top-right-radius: 8px;" class="w-100">
+
+                          <div>
+                            <p class="fs-11px text-FF6594 mt-16px px-2 mb-0">2021-06-10</p>
+                            <p class="fs-16px fw-bold px-2">MYCE token</p>
+                            <p class="fs-14px px-2">
+                              MYCE token is a ERC-20 cryptocurrency
+                              that was issued on security of real
+                              service based on Ethereum, and it...
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-6 mx-auto">
+                      <a href="https://myce-token.medium.com/myce-business-information-session-82be18025ffa" target="_blank" style="width: 100%; height: 100%; display: block;">
+                        <div class="w-100 h-100" style="border: 1px solid #fff; border-radius: 8px; background-color: #f8f8f8;">
+                          <img src="img/news-4.jpg" style="border-top-left-radius: 8px; border-top-right-radius: 8px;" class="w-100">
+
+                          <div>
+                            <p class="fs-11px text-FF6594 mt-16px px-2 mb-0">2021-09-03</p>
+                            <p class="fs-16px fw-bold px-2">MYCE Meetup Session</p>
+                            <p class="fs-14px px-2">
+                              MYCE Coin, the largest event solution
+                              in South Korea based on blockchain
+                              system is holding an offline business...
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </center>
+              </div>
+              <div class="carousel-item px-2" data-bs-interval="100000">
+                <center>
+                  <div class="row">
+
+                    <div class="col-6 mx-auto">
+                      <a href="https://myce-token.medium.com/announcing-myce-coin-ama-event-8f635241b790" target="_blank" style="width: 100%; height: 100%; display: block;">
+                        <div class="w-100 h-100" style="border: 1px solid #fff; border-radius: 8px; background-color: #f8f8f8;">
+                          <img src="img/news-5.jpg" style="border-top-left-radius: 8px; border-top-right-radius: 8px;" class="w-100">
+
+                          <div>
+                            <p class="fs-11px text-FF6594 mt-16px px-2 mb-0">2021-09-09</p>
+                            <p class="fs-16px fw-bold px-2">Announcing MYCE coin AMA event</p>
+                            <p class="fs-14px px-2">
+                              Hello! We’re hosting AMA event on online of MYCE coin, an event solution based on...
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-6 mx-auto">
+                      <a href="https://myce-token.medium.com/myce-offline-meetup-review-c216fc5ca1ac" target="_blank" style="width: 100%; height: 100%; display: block;">
+                        <div class="w-100 h-100" style="border: 1px solid #fff; border-radius: 8px; background-color: #f8f8f8;">
+                          <img src="img/news-4.jpg" style="border-top-left-radius: 8px; border-top-right-radius: 8px;" class="w-100">
+
+                          <div>
+                            <p class="fs-11px text-FF6594 mt-16px px-2 mb-0">2021-09-13</p>
+                            <p class="fs-16px fw-bold px-2">MYCE Offline Meetup Review</p>
+                            <p class="fs-14px px-2">
+                              We would like to update how the offline
+                              meetup session with MYCE, event
+                              solution based on blockchain, did go...
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </center>
+              </div>
+              <div class="carousel-item px-2" data-bs-interval="100000">
+                <center>
+                  <div class="row">
+
+                    <div class="col-6 mx-auto">
+                      <a href="https://myce-token.medium.com/myce-business-information-session-82be18025ffa" target="_blank" style="width: 100%; height: 100%; display: block;">
+                        <div class="w-100 h-100" style="border: 1px solid #fff; border-radius: 8px; background-color: #f8f8f8;">
+                          <img src="img/news-5.jpg" style="border-top-left-radius: 8px; border-top-right-radius: 8px;" class="w-100">
+
+                          <div>
+                            <p class="fs-11px text-FF6594 mt-16px px-2 mb-0">2021-09-13</p>
+                            <p class="fs-16px fw-bold px-2">MYCE AMA Script and Users’ Review</p>
+                            <p class="fs-14px px-2">
+                              MYCE tokens got issued and business
+                              plan was established in the 3rd quarter of 2020...
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-6 mx-auto">
+                      <a href="https://www.dailian.co.kr/news/view/1024372/?sc=Naver" target="_blank" style="width: 100%; height: 100%; display: block;">
+                        <div class="w-100 h-100" style="border: 1px solid #fff; border-radius: 8px; background-color: #f8f8f8;">
+                          <img src="img/news-1.jpg" style="border-top-left-radius: 8px; border-top-right-radius: 8px;" class="w-100">
+
+                          <div>
+                            <p class="fs-11px text-FF6594 mt-16px px-2 mb-0">2021-09-19</p>
+                            <p class="fs-16px fw-bold px-2">나목, 모임 커머스 플랫폼 ‘부름(Bloom)’ 국내 론칭 본격시동</p>
+                            <p class="fs-14px px-2">
+                              ‘나목’에서 개발한 실생활 커머스 플랫폼 ‘부름(Bloom)’이 국내 론칭을 앞두고 있다...
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </center>
+              </div>
+              <div class="carousel-item px-2" data-bs-interval="100000">
+                <center>
+                  <div class="row">
+
+                    <div class="col-6 mx-auto">
+                      <a href="http://it.chosun.com/site/data/html_dir/2021/09/17/2021091702072.html" target="_blank" style="width: 100%; height: 100%; display: block;">
+                        <div class="w-100 h-100" style="border: 1px solid #fff; border-radius: 8px; background-color: #f8f8f8;">
+                          <img src="img/news-2.jpg" style="border-top-left-radius: 8px; border-top-right-radius: 8px;" class="w-100">
+
+                          <div>
+                            <p class="fs-11px text-FF6594 mt-16px px-2 mb-0">2021-09-19</p>
+                            <p class="fs-16px fw-bold px-2">나목, 모임 커머스 플랫폼 '부름’ 한국페이즈서비스와 계약</p>
+                            <p class="fs-14px px-2">
+                              나목이 자사가 개발한 ‘부름(Bloom) 실생활 커머스 모임
+                              플랫폼의 서비스 이용 강화를 위해...
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-6 mx-auto">
+                      <a href="https://myce-token.medium.com/%EB%B9%84%ED%8A%B8%EB%A0%89%EC%8A%A4-%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%97%90%EC%84%9C-%EB%A7%88%EC%9D%B4%EC%8A%A4-myce-%EC%BD%94%EC%9D%B8-%EC%A7%80%EA%B0%91%EC%9D%B4-%EC%98%A4%ED%94%88-1760ee469110" target="_blank" style="width: 100%; height: 100%; display: block;">
+                        <div class="w-100 h-100" style="border: 1px solid #fff; border-radius: 8px; background-color: #f8f8f8;">
+                          <img src="img/news-6.jpg" style="border-top-left-radius: 8px; border-top-right-radius: 8px;" class="w-100">
+
+                          <div>
+                            <p class="fs-11px text-FF6594 mt-16px px-2 mb-0">2021-10-05</p>
+                            <p class="fs-16px fw-bold px-2">비트렉스 글로벌에서 마이스(MYCE)코인 지갑이 오픈</p>
+                            <p class="fs-14px px-2">
+                              안녕하세요. 마이스(MYCE)코인 입니다.
+                              비트렉스 글로벌에서 마이스(MYCE)코인 지갑이 오픈...
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </center>
+              </div>
+              <div class="carousel-item px-2" data-bs-interval="100000">
+                <center>
+                  <div class="row">
+
+                    <div class="col-6 mx-auto">
+                      <a href="https://myce-token.medium.com/%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0-%EB%A7%88%EC%9D%B4%EC%8A%A4-myce-%EB%B9%84%ED%8A%B8%EB%A0%89%EC%8A%A4-%EC%83%81%EC%9E%A5-%EC%86%8C%EC%8B%9D-%EC%B6%9C%EC%B2%98-it%EC%A1%B0%EC%84%A0-%EC%9B%90%EB%AC%B8-http-it-chosun-com-site-data-html-dir-2021-10-04-2021100-b2679c3b084a" target="_blank" style="width: 100%; height: 100%; display: block;">
+                        <div class="w-100 h-100" style="border: 1px solid #fff; border-radius: 8px; background-color: #f8f8f8;">
+                          <img src="img/news-4.jpg" style="border-top-left-radius: 8px; border-top-right-radius: 8px;" class="w-100">
+
+                          <div>
+                            <p class="fs-11px text-FF6594 mt-16px px-2 mb-0">2021-10-06</p>
+                            <p class="fs-16px fw-bold px-2">가상자산 마이스(MYCE), 미국 암호화폐 거래소 비트렉스 상장</p>
+                            <p class="fs-14px px-2">
+                              가상자산 마이스(MYCE)가 미국의 글로벌
+                              암호화폐 거래소 비트렉스에 6일
+                              상장한다고 밝혔다...
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-6 mx-auto">
+                      <a href="https://myce-token.medium.com/%EB%A7%88%EC%9D%B4%EC%8A%A4-myce-200%EB%A7%8C%EC%9B%90-%EC%83%81%EB%8B%B9-%EC%97%90%EC%96%B4%EB%93%9C%EB%9E%8D-23633db35f0b" target="_blank" style="width: 100%; height: 100%; display: block;">
+                        <div class="w-100 h-100" style="border: 1px solid #fff; border-radius: 8px; background-color: #f8f8f8;">
+                          <img src="img/news-6.jpg" style="border-top-left-radius: 8px; border-top-right-radius: 8px;" class="w-100">
+
+                          <div>
+                            <p class="fs-11px text-FF6594 mt-16px px-2 mb-0">2021-10-06</p>
+                            <p class="fs-16px fw-bold px-2">마이스(MYCE) 200만원 상당 에어드랍</p>
+                            <p class="fs-14px px-2">
+                              마이스(MYCE) 토큰의 비트렉스 글로벌 상당의 에어드랍을 진행합니다!...
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div id="wrapper3">
+    <div class="container-fluid mw-1232px px-4" style="margin-top: -10px">
+
+      <div class="row">
+        <div class="col-12">
+          <p class="nunito fs-24px text-white fw-900 text-center mb-4 mt-160px wow fadeInDown">Partners</p>
+        </div>
+      </div>
+
+      <div class="row gx-2 align-items-center">
+        <div class="col-12"><button type="button" class="btn btn-partners mx-auto text-start fs-16px px-3">
+            Crypto Exchange
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+              <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+            </svg>
+          </button>
+        </div>
+        <div class="col-12 mx-1 mt-3">
+          <div class="row">
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/cashierest.png" style="height:30px"></center>
+            </div>
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/bittrex.svg" style="height:30px"></center>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4 gx-2">
+        <div class="col-12">
+          <button type="button" class="btn btn-partners mx-auto text-start fs-16px px-3">
+            Law firm
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+              <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+            </svg>
+          </button>
+        </div>
+        <div class="col-12 mx-1 mt-3">
+          <div class="row">
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/dlight.svg" style="height:30px"></center>
+            </div>
+
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/dentons.png" style="height:30px"></center>
+            </div>
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/renaissance.png" style="height:30px"></center>
+            </div>
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/BCAS.png" style="height:30px"></center>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row mt-4 gx-2">
+        <div class="col-12">
+          <button type="button" class="btn btn-partners mx-auto text-start fs-16px px-3">
+            Marketing
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+              <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+            </svg>
+          </button>
+        </div>
+        <div class="col-12 mx-1 mt-3">
+          <div class="row">
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/grafik.png" style="height:28px"></center>
+            </div>
+
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/ziin.png" style="height:28px"></center>
+            </div>
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/dp.png" style="height:28px"></center>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row mt-4 gx-2">
+        <div class="col-12">
+          <button type="button" class="btn btn-partners mx-auto text-start fs-16px px-3">
+            Audit
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+              <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+            </svg>
+          </button>
+        </div>
+        <div class="col-12 mx-1 mt-3">
+          <div class="row">
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/slowmist.png" style="height:30px"></center>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4 gx-2">
+        <div class="col-12">
+          <button type="button" class="btn btn-partners mx-auto text-start fs-16px px-3">
+            Developer
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+              <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+            </svg>
+          </button>
+        </div>
+        <div class="col-12 mx-1 mt-3">
+          <div class="row">
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/aws.png" style="height:30px"></center>
+            </div>
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/dataweaver.png" style="height:30px"></center>
+            </div>
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/kgmobilians.png" style="height:20px"></center>
+            </div>
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/froala.svg" style="height:30px"></center>
+            </div>
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/datagate.png" style="height:30px"></center>
+            </div>
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/42Maru.svg" style="height:30px"></center>
+            </div>
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/Trustology.svg" style="height:30px"></center>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4 gx-2">
+        <div class="col-12">
+          <button type="button" class="btn btn-partners mx-auto text-start fs-16px px-3">
+            Investment
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+              <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+            </svg>
+          </button>
+        </div>
+        <div class="col-12 mx-1 mt-3">
+          <div class="row">
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/vomin.png" style="height:30px"></center>
+            </div>
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/wonfun.png" style="height:30px"></center>
+            </div>
+            <div class="col bg-white-half py-3 m-2 wow slideInRight" data-wow-offset="100" data-wow-duration="0.7s">
+              <center><img src="img/hanaon.png" style="height:30px"></center>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <!--
+
+      
+			<div class="row">
+												<img src="img/logo.png" class="d-block mx-auto hover_img">
+
+				<div class="col-12 border" style="margin-top: 500px">
+					wow로 스크롤 걸릴때 애니메이션 시작
+					<img src="IMG/sample.png" class="mx-auto d-block wow fadeInLeft">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12">
+					<div class="effect">
+						<h1>GWP</h1>
+					</div>
+				</div>
+			</div>
+
+-->
+
+
+    </div>
+  </div>
+  <!--  <div class="bg-262422 pb-3">-->
+  <div id="wrapper4">
+    <div class="container-fluid mw-1232px px-4 pb-3 mt-160px">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
+        <p class="col-md-4 mb-0 text-muted"><img src="img/footer_logo.svg"></p>
+
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end" style="opacity: 0.6;">
+          <li class="nav-item cursor-pointer hover_img2"><a onclick="window.open('https://t.me/myce_official')" class="nav-link px-2 text-muted"><img src="img/sns_telegram.svg"></a></li>
+          <li class="nav-item cursor-pointer hover_img2"><a onclick="window.open('https://open.kakao.com/o/g2GiyUFc')" class="nav-link px-2 text-muted"><img src="img/sns_kakao.svg"></a></li>
+          <li class="nav-item cursor-pointer hover_img2"><a onclick="window.open('https://twitter.com/MYCE_official')" class="nav-link px-2 text-muted"><img src="img/sns_twitter.svg"></a></li>
+          <li class="nav-item cursor-pointer hover_img2"><a onclick="window.open('https://myce-token.medium.com/')" class="nav-link px-2 text-muted"><img src="img/sns_medium.svg"></a></li>
+          <li class="nav-item cursor-pointer hover_img2"><a onclick="window.open('https://www.facebook.com/myce.official')" class="nav-link ps-2 pe-0 text-muted"><img src="img/sns_facebook.svg"></a></li>
+        </ul>
+      </footer>
+      <div class="clearfix">
+        <div class="fs-14px text-aaaaaa float-start">
+          UNITED CEREMONIA PTE., LTD.<br>
+          Location. 16 RAPPLES QUAY #16-05 HONG LEONG BUILDING SINGAPORE (048581)<br><br>
+
+          <p class="fs-11px">
+            NAMOK Inc. (Site Management)<br>
+            CEO. Soonho Ock<br>
+            Location. 16, Teheran-ro 10-gil, Gangnam-gu, Seoul, Republic of Korea
+            06234<br>
+            Company Registration No. 871-87-02115
+          </p>
+          <div class="float-start fs-14px text-aaaaaa">Contact. myce@myce.io</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-13120F">
+    <div class="container-fluid mw-1232px px-0 py-3 text-center fs-12px text-aaaaaa">
+      ©2020 All rights reserved
+    </div>
+  </div>
+  <!--
+
+	<div class="bg">
+	</div>
+
+	<div class="bg2">
+	</div>
+
+	<div class="bg3">
+	</div>
+-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $(function() {
+      $(".lang").mouseenter(function() {
+        $(".lang_list .lang_en").animate({
+          "opacity": "1"
+        }, 500);
+        $(".lang_list .lang_kr").animate({
+          "opacity": "1"
+        }, 1000);
+      });
+
+      $(".lang").mouseleave(function() {
+        $(".lang_list .lang_kr").animate({
+          "opacity": "0"
+        }, 500);
+        $(".lang_list .lang_en").animate({
+          "opacity": "0"
+        }, 1000);
+      });
+
+      $(".dep").mouseenter(function() {
+        $(this).children(".dep2").css({
+          "display": "table"
+        });
+        $(this).children(".dep2").animate({
+          "bottom": "0"
+        }, 200);
+      });
+
+      $(".dep").mouseleave(function() {
+        $(this).children(".dep2").css({
+          "display": "none",
+          "bottom": "-300px"
+        });
+      });
+    });
+  </script>
+  <script>
+    var slide = document.getElementsByClassName('slide'),
+      rightArrow = document.getElementsByClassName('rightArrow')[0],
+      leftArrow = document.getElementsByClassName('leftArrow')[0];
+
+    leftArrow.onclick = function() {
+      var temp = slide[0].getAttribute('class');
+
+      slide[0].setAttribute('class', slide[1].getAttribute('class'));
+
+      slide[1].setAttribute('class', slide[2].getAttribute('class'));
+
+      slide[2].setAttribute('class', temp);
+    }
+
+    rightArrow.onclick = function() {
+      var temp = slide[0].getAttribute('class');
+      console.log(temp);
+
+      slide[0].setAttribute('class', slide[2].getAttribute('class'));
+
+      slide[2].setAttribute('class', slide[1].getAttribute('class'));
+
+      slide[1].setAttribute('class', temp);
+    }
+  </script>
+
+  <script type="text/javascript" src="js/gototop.js"></script>
+  <script>
+    $(function() {
+      $(".btn-about-myce").addClass("btn-about-myce-active");
+      $(".btn-ready").click(function() {
+        $(".btn-about-myce").removeClass("btn-about-myce-active");
+      });
+    });
+  </script>
+
+</body>
+
+</html>
