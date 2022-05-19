@@ -116,3 +116,17 @@ $total: 4;
         font-size: 24px;
     }
 }
+
+//////////////////////////////////////////////////////
+//1. 중첩사용이 부모선택자의 프로퍼티값을 상속하진 않음
+//////////////////////////////////////////////////////
+.ready {
+    color: #F8F8F8;
+    border: 1px solid #F8F8F8 !important;
+
+    &2 {
+        color: #F8F8F8;
+        border: 1px solid #FF6594 !important;
+        background-color: #FF6594 !important;
+    }
+}
