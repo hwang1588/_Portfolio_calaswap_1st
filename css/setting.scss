@@ -826,8 +826,6 @@ $total: 6;
 				@include FF6594_border_bg;
 			}
 		}
-
-
 	}
 
 	&-partners {
@@ -835,6 +833,11 @@ $total: 6;
 		border-color: #ffffff !important;
 		box-shadow: 0px 0px 30px rgb(255 204 230 / 50%);
 		background-color: transparent
+	}
+
+	@at-root .trans-x-10 {
+		transform: translateX(10px);
+		@include f8f8f8_text__ff84a9_border_bg;
 	}
 }
 
