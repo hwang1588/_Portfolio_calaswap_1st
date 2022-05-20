@@ -37,7 +37,9 @@ For Everyone Happy In the World!">
   <script>
     function isMobile() {
       var UserAgent = navigator.userAgent;
-      if (UserAgent.match(/iPhone|iPod|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) {
+      if (UserAgent.match(
+          /iPhone|iPod|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i
+          ) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) {
         return true;
       } else {
         return false;
@@ -59,7 +61,11 @@ For Everyone Happy In the World!">
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
   <script src="js/ui.js"></script>
   <script src="js/template.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!--BOOTSTRAP.JS:S-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+  <!--BOOTSTRAP.JS:E-->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
@@ -71,7 +77,7 @@ For Everyone Happy In the World!">
 
   <!--레이아웃 로드:S-->
   <script>
-    $(function() {
+    $(function () {
       //$('header').load('header.html');
       $('#mobile_header').load('m_header.html');
       $('footer').load('footer.html');
@@ -84,7 +90,7 @@ For Everyone Happy In the World!">
 
 </head>
 
-<body>
+<body class="position-fixed w-100">
 
   <!--영상:s--
   <div class="namok_display">
@@ -149,14 +155,20 @@ For Everyone Happy In the World!">
     </header>
 
     <img src="img/star.svg" style="position: absolute;right: 150px;width: 45px;top: 610px;" class="animation-blinkstar">
-    <img src="img/star_solo.svg" style="position: absolute; left: 150px;width: 40px;top: 210px;" class="animation-blinkstar">
-    <img src="img/star_solo.svg" style="position: absolute;left: 338px;width: 35px;top: 314px;" class="animation-blinkstar">
-    <img src="img/star_solo.svg" style="position: absolute; left: 118px;width: 30px;top: 514px;" class="animation-blinkstar">
+    <img src="img/star_solo.svg" style="position: absolute; left: 150px;width: 40px;top: 210px;"
+      class="animation-blinkstar">
+    <img src="img/star_solo.svg" style="position: absolute;left: 338px;width: 35px;top: 314px;"
+      class="animation-blinkstar">
+    <img src="img/star_solo.svg" style="position: absolute; left: 118px;width: 30px;top: 514px;"
+      class="animation-blinkstar">
     <img src="img/star.svg" style="position: absolute;right: 260px;width: 35px;top: 900px;" class="animation-blinkstar">
-    <img src="img/star.svg" style="position: absolute; width: 22px; left: 60%; top: -2%;" class="animation-blinkstar metor">
+    <img src="img/star.svg" style="position: absolute; width: 22px; left: 60%; top: -2%;"
+      class="animation-blinkstar metor">
     <!--    <img src="img/star.svg" style="position: absolute; width: 22px; left: 64%; top: -2%;" class="animation-blinkstar metor2">-->
-    <img src="img/star_solo.svg" style="position: absolute; width: 23px; left: 50%; top: -2%;" class="animation-blinkstar metor3">
-    <img src="img/shootingstar.png" style="position: absolute; width: 64px; left: 30%; top: -5%;" class="animation-blinkstar metor4">
+    <img src="img/star_solo.svg" style="position: absolute; width: 23px; left: 50%; top: -2%;"
+      class="animation-blinkstar metor3">
+    <!-- <img src="img/shootingstar.png" style="position: absolute; width: 64px; left: 30%; top: -5%;"
+      class="animation-blinkstar metor4"> -->
 
 
 
@@ -171,13 +183,19 @@ For Everyone Happy In the World!">
           </p>
         </div>
         <center>
-          <a class="text-decoration-none wow fadeInDown" onclick="window.open('img/myce_renew_en.pdf')" target="_blnak" data-wow-duration="2s" data-wow-delay="3s" >
+          <a class="text-decoration-none wow fadeInDown" onclick="window.open('img/myce_renew_en.pdf')" target="_blnak"
+            data-wow-duration="2s" data-wow-delay="3s">
             <!--          <a class="text-decoration-none">-->
-            <button type="button" class="btn btn-ready2 mx-auto text-start fs-24px w-296px h-56px mt-48px intro pulse-button-hover" style="padding-left:73px;">
+            <button type="button"
+              class="btn btn-ready2 mx-auto text-start fs-24px w-296px h-56px mt-48px intro pulse-button-hover"
+              style="padding-left:73px;">
               <!--로더로 인한 딜레이 2초 추가-->
               White paper
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z">
+                </path>
               </svg>
             </button>
           </a>
@@ -222,34 +240,59 @@ For Everyone Happy In the World!">
 
           <div class="col-3">
             <div class="d-grid">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="btn btn-about-myce mx-auto text-start fs-24px w-296px h-56px mb-31px wow fadeInLeft moving-left" data-wow-duration="1s" aria-controls="" aria-current="true" aria-label="Slide 1">
+              <button id="carousel-btn-1" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                class="btn btn-about-myce mx-auto text-start fs-24px w-296px h-56px mb-31px wow fadeInLeft moving-left "
+                data-wow-duration="1s" aria-controls="" aria-current="true" aria-label="Slide 1">
                 about MYCE
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
-                  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
+                  <path
+                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z">
+                  </path>
                 </svg>
               </button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class=" btn btn-ready mx-auto text-start fs-24px w-296px h-56px mb-31px wow fadeInLeft moving-left" data-wow-duration="1s" aria-current="true" aria-label="Slide 2">
+              <button id="carousel-btn-2" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                class=" btn btn-ready mx-auto text-start fs-24px w-296px h-56px mb-31px wow fadeInLeft moving-left"
+                data-wow-duration="1s" aria-current="true" aria-label="Slide 2">
                 Project message
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
-                  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
+                  <path
+                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z">
+                  </path>
                 </svg>
               </button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="btn btn-ready mx-auto text-start fs-24px w-296px h-56px mb-31px wow fadeInLeft moving-left" data-wow-duration="1s" aria-current="true">
+              <button id="carousel-btn-3" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                class="btn btn-ready mx-auto text-start fs-24px w-296px h-56px mb-31px wow fadeInLeft moving-left"
+                data-wow-duration="1s" aria-current="true">
                 MYCE vision
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
-                  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
+                  <path
+                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z">
+                  </path>
                 </svg>
               </button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" class="btn btn-ready mx-auto text-start fs-24px w-296px h-56px mb-31px wow fadeInLeft moving-left" data-wow-duration="1s" aria-current="true">
+              <button id="carousel-btn-4" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                class="btn btn-ready mx-auto text-start fs-24px w-296px h-56px mb-31px wow fadeInLeft moving-left"
+                data-wow-duration="1s" aria-current="true">
                 Distribution
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
-                  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
+                  <path
+                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z">
+                  </path>
                 </svg>
               </button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" class="btn btn-ready mx-auto text-start fs-24px w-296px h-56px wow fadeInLeft moving-left" data-wow-duration="1s" aria-current="true">
+              <button id="carousel-btn-5" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                class="btn btn-ready mx-auto text-start fs-24px w-296px h-56px wow fadeInLeft moving-left"
+                data-wow-duration="1s" aria-current="true">
                 Technology
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
-                  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
+                  <path
+                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z">
+                  </path>
                 </svg>
               </button>
             </div>
@@ -257,34 +300,56 @@ For Everyone Happy In the World!">
 
           <div class="col-1"></div>
           <div class="col-8">
+            
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="100000">
-                  <div class="d-block w-100 " >
-                    <p class="nunito fs-48px text-f8f8f8 fw-900 mb-4 wow fadeInRight" data-wow-delay="0.5s">about MYCE</p>
+                <div class="carousel-item carousel-1 active" data-bs-interval="100000">
+                  <div class="d-block w-100 ">
+                    <p class="nunito fs-48px text-f8f8f8 fw-900 mb-4 wow fadeInRight" data-wow-delay="0.5s">about MYCE
+                    </p>
                     <p class="text-f8f8f8 fw-normal fs-14px lh-20px wow fadeInRight" data-wow-delay="1s">
-                      Bloom' aims to transform the life commerce market based on organized and stable digital governance by integrating my<br>
-                      ecosystem, where countless companies are intertwined, based on a new market that has not been attempted in Korea.<br><br>
+                      Bloom' aims to transform the life commerce market based on organized and stable digital governance
+                      by integrating my<br>
+                      ecosystem, where countless companies are intertwined, based on a new market that has not been
+                      attempted in Korea.<br><br>
 
-                      As a space-based on-demand service, we provide verified content and services by providing various event information, so<br> that everyone can enjoy various gatherings anytime, anywhere, and we will increase consumer satisfaction.<br><br>
+                      As a space-based on-demand service, we provide verified content and services by providing various
+                      event information, so<br> that everyone can enjoy various gatherings anytime, anywhere, and we
+                      will increase consumer satisfaction.<br><br>
 
-                      In order to be widely used in real life, MYCE tokens are planned to be used by ordinary users who pay for event services with<br> cash or credit cards. In the case of MYCE tokens, their uses and values will become more diverse as the network of<br> operators increases. By enabling the evaluation of the high completeness/safety of product providers (sellers), we want to<br> increase the reliability of users and reflect opinions to create a structure in which both platform service providers (developers) and product providers (sellers) can strive to provide better services.<br><br>
+                      In order to be widely used in real life, MYCE tokens are planned to be used by ordinary users who
+                      pay for event services with<br> cash or credit cards. In the case of MYCE tokens, their uses and
+                      values will become more diverse as the network of<br> operators increases. By enabling the
+                      evaluation of the high completeness/safety of product providers (sellers), we want to<br> increase
+                      the reliability of users and reflect opinions to create a structure in which both platform service
+                      providers (developers) and product providers (sellers) can strive to provide better
+                      services.<br><br>
 
-                      - United Ceremonia Foundation was established in Singapore to revitalize the stagnant online and offline markets, and<br> developed and created MYCE tokens. (Established date: November 3, 2020)
+                      - United Ceremonia Foundation was established in Singapore to revitalize the stagnant online and
+                      offline markets, and<br> developed and created MYCE tokens. (Established date: November 3, 2020)
                     </p>
                   </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="100000">
+                <div class="carousel-item carousel-2" data-bs-interval="100000">
                   <div class="d-block w-100">
                     <p class="nunito fs-48px text-f8f8f8 fw-900 mb-4">Project message</p>
                     <p class="text-f8f8f8 fw-normal fs-14px lh-20px">
                       Dear MYCE holders.<br><br>
 
-                      In November 2020, the foundation was founded in Singapore and issued MYCE (tokens). Our team started developing the<br> platform with the aim of establishing a "real-life gathering information platform" where users can share information and<br> places related to gathering using tokens payment system. With more a year of effort, we launched a "Bloom" app in November 2021 that allows users to pay for real-life MYCE based on O2O (Online to Offline) services.<br><br>
+                      In November 2020, the foundation was founded in Singapore and issued MYCE (tokens). Our team
+                      started developing the<br> platform with the aim of establishing a "real-life gathering
+                      information platform" where users can share information and<br> places related to gathering using
+                      tokens payment system. With more a year of effort, we launched a "Bloom" app in November 2021 that
+                      allows users to pay for real-life MYCE based on O2O (Online to Offline) services.<br><br>
 
-                      Beyond the payment method, our team have begun upgrading NFT membership in 2022 to expand the ecosystem of MYCE.<br> NFT holders are able to participate in various events and compensation for participation will be provided through community<br> participation, expansion of staking programs, and regular airdrop events.<br><br>
+                      Beyond the payment method, our team have begun upgrading NFT membership in 2022 to expand the
+                      ecosystem of MYCE.<br> NFT holders are able to participate in various events and compensation for
+                      participation will be provided through community<br> participation, expansion of staking programs,
+                      and regular airdrop events.<br><br>
 
-                      In the fourth quarter of 2022, we aim to open the test version of the NFT service. Our team committed to developing<br> differentiated services to increase competitiveness through expansion of NFT membership services and continue to preoccupy the future market.<br><br>
+                      In the fourth quarter of 2022, we aim to open the test version of the NFT service. Our team
+                      committed to developing<br> differentiated services to increase competitiveness through expansion
+                      of NFT membership services and continue to preoccupy the future market.<br><br>
 
                       Thank you for your support, and please generously support the bright future of MYCE.<br><br>
 
@@ -292,90 +357,112 @@ For Everyone Happy In the World!">
                     </p>
                   </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="100000">
+                <div class="carousel-item carousel-3" data-bs-interval="100000">
                   <div class="d-block w-100">
                     <p class="nunito fs-48px text-f8f8f8 fw-900 mb-4">MYCE vision</p>
                     <p class="text-f8f8f8 fw-normal fs-14px lh-20px">
-                      Untact consumption trends following COVID-19 highlight businesses using digital tech such as online to offline (O2O) and<br> non-face-to-face purchases, and corporate digital transformation has established itself as an essential survival strategy.<br><br>
+                      Untact consumption trends following COVID-19 highlight businesses using digital tech such as
+                      online to offline (O2O) and<br> non-face-to-face purchases, and corporate digital transformation
+                      has established itself as an essential survival strategy.<br><br>
 
-                      The MYCE project aims to establish and service a mechanism to solve problems through coordination and consultation while<br> ensuring the participation of various actors such as individuals (users), companies (sellers), and managers (platforms).<br><br>
+                      The MYCE project aims to establish and service a mechanism to solve problems through coordination
+                      and consultation while<br> ensuring the participation of various actors such as individuals
+                      (users), companies (sellers), and managers (platforms).<br><br>
 
-                      The MYCE project aims to solve this problem by distributing it across the network and allowing participants to jointly record<br> and manage it to prevent problems such as manipulation from a specific object in the above type of system mechanism.<br><br>
+                      The MYCE project aims to solve this problem by distributing it across the network and allowing
+                      participants to jointly record<br> and manage it to prevent problems such as manipulation from a
+                      specific object in the above type of system mechanism.<br><br>
 
-                      It’s a distributed structure based on "blockchain technology" that reduces fees through transactions without an authorized<br> third party, eliminates the need for a centralized organization or authorized third party to ensure reliability (transparency),<br> and fundamentally blocks all transactions on the central server.
+                      It’s a distributed structure based on "blockchain technology" that reduces fees through
+                      transactions without an authorized<br> third party, eliminates the need for a centralized
+                      organization or authorized third party to ensure reliability (transparency),<br> and fundamentally
+                      blocks all transactions on the central server.
                     </p>
                   </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="100000">
+                <div class="carousel-item carousel-4" data-bs-interval="100000">
                   <div class="d-block w-100">
                     <p class="nunito fs-48px text-f8f8f8 fw-900 mb-4">Distribution</p>
                     <p class="text-f8f8f8 fw-normal fs-14px lh-20px">
-                    <table class="w-100">
-                      <colgroup>
-                        <col width="258px">
-                        <col width="35%">
-                        <col width="">
-                        <col width="">
-                      </colgroup>
-                      <tbody>
-                        <tr class="table_bg  border-bottom">
-                          <th class="text-center py-1">Project Name</th>
-                          <td colspan="3" class="ps-4 border-start">MYCE (MY Ceremonial Event)</td>
-                        </tr>
-                        <tr class="border-bottom">
-                          <th class="text-center py-1">Symbol</th>
-                          <td colspan="3" class="ps-4 border-start">MYCE</td>
-                        </tr>
-                        <tr class="table_bg  border-bottom">
-                          <th class="text-center py-1">Total Supply</th>
-                          <td class="ps-4 border-start">10,000,000,000</td>
-                          <td colspan="2">MYCE</td>
-                        </tr>
-                        <tr class=" border-bottom">
-                          <th rowspan="6" class="text-center ">Allocation</th>
-                          <td class="ps-4 border-start py-1">Marketing &amp; User Incentive</td>
-                          <td>3,000,000,000</td>
-                          <td>30%</td>
-                        </tr>
-                        <tr class="table_bg  border-bottom">
-                          <td class="ps-4 border-start py-1">Platform Operation</td>
-                          <td>2,000,000,000</td>
-                          <td>20%</td>
-                        </tr>
-                        <tr class=" border-bottom">
-                          <td class="ps-4 border-start py-1">Strategic Partnership</td>
-                          <td>2,000,000,000</td>
-                          <td>20%</td>
-                        </tr>
-                        <tr class="table_bg  border-bottom">
-                          <td class="ps-4 border-start py-1">Team &amp; Advisor</td>
-                          <td>1,000,000,000</td>
-                          <td>10%</td>
-                        </tr>
-                        <tr class=" border-bottom">
-                          <td class="ps-4 border-start py-1">Reserve Fund</td>
-                          <td>2,000,000,000</td>
-                          <td>20%</td>
-                        </tr>
-                        <tr class="table_bg">
-                          <td class="ps-4 border-start py-1">Total</td>
-                          <td>10,000,000,000</td>
-                          <td>100%</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                      <table class="w-100">
+                        <colgroup>
+                          <col width="258px">
+                          <col width="35%">
+                          <col width="">
+                          <col width="">
+                        </colgroup>
+                        <tbody>
+                          <tr class="table_bg  border-bottom">
+                            <th class="text-center py-1">Project Name</th>
+                            <td colspan="3" class="ps-4 border-start">MYCE (MY Ceremonial Event)</td>
+                          </tr>
+                          <tr class="border-bottom">
+                            <th class="text-center py-1">Symbol</th>
+                            <td colspan="3" class="ps-4 border-start">MYCE</td>
+                          </tr>
+                          <tr class="table_bg  border-bottom">
+                            <th class="text-center py-1">Total Supply</th>
+                            <td class="ps-4 border-start">10,000,000,000</td>
+                            <td colspan="2">MYCE</td>
+                          </tr>
+                          <tr class=" border-bottom">
+                            <th rowspan="6" class="text-center ">Allocation</th>
+                            <td class="ps-4 border-start py-1">Marketing &amp; User Incentive</td>
+                            <td>3,000,000,000</td>
+                            <td>30%</td>
+                          </tr>
+                          <tr class="table_bg  border-bottom">
+                            <td class="ps-4 border-start py-1">Platform Operation</td>
+                            <td>2,000,000,000</td>
+                            <td>20%</td>
+                          </tr>
+                          <tr class=" border-bottom">
+                            <td class="ps-4 border-start py-1">Strategic Partnership</td>
+                            <td>2,000,000,000</td>
+                            <td>20%</td>
+                          </tr>
+                          <tr class="table_bg  border-bottom">
+                            <td class="ps-4 border-start py-1">Team &amp; Advisor</td>
+                            <td>1,000,000,000</td>
+                            <td>10%</td>
+                          </tr>
+                          <tr class=" border-bottom">
+                            <td class="ps-4 border-start py-1">Reserve Fund</td>
+                            <td>2,000,000,000</td>
+                            <td>20%</td>
+                          </tr>
+                          <tr class="table_bg">
+                            <td class="ps-4 border-start py-1">Total</td>
+                            <td>10,000,000,000</td>
+                            <td>100%</td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </p>
                   </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="100000">
+                <div class="carousel-item carousel-5" data-bs-interval="100000">
                   <div class="d-block w-100">
                     <p class="nunito fs-48px text-f8f8f8 fw-900 mb-4">Technology</p>
                     <p class="text-f8f8f8 fw-normal fs-14px lh-20px">
-                      Using smart contract systems, in the service process, all nodes first try their best to find the consensus password and receive<br> compensation, and blocks generated by the agreement process through competition are distributed and stored across all<br> nodes, so they cannot be forged or altered later. As a consensus and proof mechanism, the Proof of Work (PoW) method will<br> be used, and compensation for this will be given as a sidechain-based utility token (BOUT).<br><br>
+                      Using smart contract systems, in the service process, all nodes first try their best to find the
+                      consensus password and receive<br> compensation, and blocks generated by the agreement process
+                      through competition are distributed and stored across all<br> nodes, so they cannot be forged or
+                      altered later. As a consensus and proof mechanism, the Proof of Work (PoW) method will<br> be
+                      used, and compensation for this will be given as a sidechain-based utility token (BOUT).<br><br>
 
-                      The Ethereum-based blockchain system uses a smart contract method that sets the terms of the transaction, automatically<br> concludes the contract, executes the transaction according to the terms of the transaction, and stores the transaction in the<br> Ethereum blockchain.<br><br>
+                      The Ethereum-based blockchain system uses a smart contract method that sets the terms of the
+                      transaction, automatically<br> concludes the contract, executes the transaction according to the
+                      terms of the transaction, and stores the transaction in the<br> Ethereum blockchain.<br><br>
 
-                      Each node that builds and configures a secret voting system based on the blockchain network codes the voting process,<br> writes it as a smart contract, and creates transactions containing smart contracts and stores them in the blockchain. Based on the blockchain network, it includes a voter registration process using non-interactive Young-Knowledge Proof for multiple<br> candidates and multiple voters, a voting process using 1-out-of-k non-interactive Young-Knowledge Proof, and a full-search counting process. It will also provide a secret electronic voting system and method that will code the voting process, write it<br> in a smart contract, record it on the blockchain, and safely proceed with secret electronic voting for multiple candidates.
+                      Each node that builds and configures a secret voting system based on the blockchain network codes
+                      the voting process,<br> writes it as a smart contract, and creates transactions containing smart
+                      contracts and stores them in the blockchain. Based on the blockchain network, it includes a voter
+                      registration process using non-interactive Young-Knowledge Proof for multiple<br> candidates and
+                      multiple voters, a voting process using 1-out-of-k non-interactive Young-Knowledge Proof, and a
+                      full-search counting process. It will also provide a secret electronic voting system and method
+                      that will code the voting process, write it<br> in a smart contract, record it on the blockchain,
+                      and safely proceed with secret electronic voting for multiple candidates.
                     </p>
                   </div>
                 </div>
@@ -384,7 +471,7 @@ For Everyone Happy In the World!">
           </div>
         </div>
 
-<!--
+        <!--
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
           <button class="bg-FF6594 border-0 rounded-3" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill text-white pb-1" viewBox="0 0 16 16">
@@ -406,24 +493,39 @@ For Everyone Happy In the World!">
           <div class="col-9">
             <p class="nunito fs-48px text-f8f8f8 fw-900 mb-4 wow fadeInRight" data-wow-duration="2s">Ecosystem</p>
             <p class="text-f8f8f8 fw-normal fs-14px lh-20px mb-4">
-              The Bloom platform is a service that provides use MYCE in real-life payment areas. MYCE becomes a token that proves itself as real goods,<br> not just the value of stake tokens, and can be used to participate in economic activities in conjunction with utility tokens (BOUT) and other<br> network blockchain.<br><br>
+              The Bloom platform is a service that provides use MYCE in real-life payment areas. MYCE becomes a token
+              that proves itself as real goods,<br> not just the value of stake tokens, and can be used to participate
+              in economic activities in conjunction with utility tokens (BOUT) and other<br> network blockchain.<br><br>
 
-              Utility tokens are not applications that use non-deposit methods in user asset management, but when users use MYCE tokens, they are paid<br>
-              according to their economic activities and governance contributions and exist in the form of major voting rights in making decisions.
+              Utility tokens are not applications that use non-deposit methods in user asset management, but when users
+              use MYCE tokens, they are paid<br>
+              according to their economic activities and governance contributions and exist in the form of major voting
+              rights in making decisions.
             </p>
             <a class="text-decoration-none" onclick="window.open('https://www.cashierest.com/stock/coinstock')">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="btn btn-ready mx-auto text-start fs-20px w-296px h-56px me-3" aria-current="true" aria-label="Slide 1">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                class="btn btn-ready mx-auto text-start fs-20px w-296px h-56px me-3" aria-current="true"
+                aria-label="Slide 1">
                 Cashierset
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill float-end mt-2" viewBox="0 0 16 16">
-                  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-caret-right-fill float-end mt-2" viewBox="0 0 16 16">
+                  <path
+                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z">
+                  </path>
                 </svg>
               </button>
             </a>
-            <a class="text-decoration-none" onclick="window.open('https://global.bittrex.com/Market/Index?MarketName=USDT-MYCE')">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="btn btn-ready mx-auto text-start fs-20px w-296px h-56px" aria-current="true" aria-label="Slide 1">
+            <a class="text-decoration-none"
+              onclick="window.open('https://global.bittrex.com/Market/Index?MarketName=USDT-MYCE')">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                class="btn btn-ready mx-auto text-start fs-20px w-296px h-56px" aria-current="true"
+                aria-label="Slide 1">
                 BITTREX
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill float-end mt-2" viewBox="0 0 16 16">
-                  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-caret-right-fill float-end mt-2" viewBox="0 0 16 16">
+                  <path
+                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z">
+                  </path>
                 </svg>
               </button>
             </a>
@@ -435,7 +537,8 @@ For Everyone Happy In the World!">
 
         <div class="row mt-240px gx-2">
           <div class="col-12">
-            <p class="nunito fs-48px text-f8f8f8 fw-900 mb-191px text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s" style="margin-bottom: 178px;">MYCE Feature</p>
+            <p class="nunito fs-48px text-f8f8f8 fw-900 mb-191px text-center wow fadeInUp" data-wow-duration="1s"
+              data-wow-delay="0.5s" style="margin-bottom: 178px;">MYCE Feature</p>
 
           </div>
         </div>
@@ -444,14 +547,20 @@ For Everyone Happy In the World!">
             <div class="col-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
               <div class="h-560px bg-white-50 shadow-myce rounded-3 p-2rem">
                 <div class="col-12 ">
-                  <img src="img/myce_token.svg" class="float-start mb-4 hover_img" style="margin-bottom:36px !important">
+                  <img src="img/myce_token.svg" class="float-start mb-4 hover_img"
+                    style="margin-bottom:36px !important">
                 </div>
                 <div class="col-12 clear-both">
                   <p class="nunito fs-24px text-f8f8f8 fw-900">MYCE Token</p>
                   <p class="fs-14px text-f8f8f8 fw-normal mt-4">
-                    MYCE token is an ERC20 token issued based on Ethereum. It can<br> be said that the basic stability of Ethereum has been sufficiently<br>verified.<br><br>
+                    MYCE token is an ERC20 token issued based on Ethereum. It can<br> be said that the basic stability
+                    of Ethereum has been sufficiently<br>verified.<br><br>
 
-                    MYCE tokens plan to be used in the form of paying for the service<br> of the calling platform to be used in real life, which will provide a<br> certain level of unique discount. This motivates users to use the<br> service, and at the same time, holders can simultaneously invest in<br> the value increase of their MYCE tokens as the platform's business<br> expands, increasing their effectiveness and value profits on both<br> sides of possession or use.
+                    MYCE tokens plan to be used in the form of paying for the service<br> of the calling platform to be
+                    used in real life, which will provide a<br> certain level of unique discount. This motivates users
+                    to use the<br> service, and at the same time, holders can simultaneously invest in<br> the value
+                    increase of their MYCE tokens as the platform's business<br> expands, increasing their effectiveness
+                    and value profits on both<br> sides of possession or use.
                   </p>
                 </div>
               </div>
@@ -464,9 +573,13 @@ For Everyone Happy In the World!">
                 <div class="col-12 clear-both">
                   <p class="nunito fs-24px text-f8f8f8 fw-900">Utility Token (BOUT)</p>
                   <p class="fs-14px text-f8f8f8 fw-normal mt-4">
-                    Utility tokens are sidechain-based tokens that make it easy to<br> exchange all utility tokens, including MYCE, on the MYCE network,<br> such as Uniswap or Balancer, which allows you to freely trade or<br> exchange tokens that exist on Ethereum.<br><br>
+                    Utility tokens are sidechain-based tokens that make it easy to<br> exchange all utility tokens,
+                    including MYCE, on the MYCE network,<br> such as Uniswap or Balancer, which allows you to freely
+                    trade or<br> exchange tokens that exist on Ethereum.<br><br>
 
-                    Users can use utility tokens to obtain service rights through the<br> following several methods. It can also be used in conjunction with<br> the Bloom platform, which shares one axis of the MYCE network<br> ecosystem, to earn additional profits.
+                    Users can use utility tokens to obtain service rights through the<br> following several methods. It
+                    can also be used in conjunction with<br> the Bloom platform, which shares one axis of the MYCE
+                    network<br> ecosystem, to earn additional profits.
                   </p>
                 </div>
               </div>
@@ -481,9 +594,14 @@ For Everyone Happy In the World!">
                   <p class="nunito fs-24px text-f8f8f8 fw-900 mt-4">Trust / Transparency-based<br>
                     meeting O2O Digital Governance</p>
                   <p class="fs-14px text-f8f8f8 fw-normal mt-4">
-                    In the service process, all nodes first try their best to find the<br> consensus password and receive compensation, and blocks<br> generated by the consensus process through competition are<br> distributed and stored across all nodes, so they cannot be forged<br> or altered later. Users with secret keys can track their transactions<br> recorded in the blockchain in real time and conduct accounting<br> audits.<br><br>
+                    In the service process, all nodes first try their best to find the<br> consensus password and
+                    receive compensation, and blocks<br> generated by the consensus process through competition are<br>
+                    distributed and stored across all nodes, so they cannot be forged<br> or altered later. Users with
+                    secret keys can track their transactions<br> recorded in the blockchain in real time and conduct
+                    accounting<br> audits.<br><br>
 
-                    As a consensus and proof mechanism, the Proof of Work(PoW)<br> method will be used, and compensation for this will be given as a<br> sidechain-based utility token (BOUT), respectively.
+                    As a consensus and proof mechanism, the Proof of Work(PoW)<br> method will be used, and compensation
+                    for this will be given as a<br> sidechain-based utility token (BOUT), respectively.
                   </p>
                 </div>
               </div>
@@ -498,9 +616,14 @@ For Everyone Happy In the World!">
                   <p class="fs-14px text-f8f8f8 fw-normal mt-4">
                     Bloom platform provides use in real-life payment areas through<br> MYCE.<br><br>
 
-                    Users can stake their MYCE on the Bloom platform and receive<br> services corresponding to the value of their assets. The quantity of<br> MYCE to be used is exchanged at a certain rate with the legal <br>currency according to the actual MYCE market price, and the<br> exchange cost is determined by the ratio of the amount of<br> currency that can maintain a stable exchange value.<br><br>
+                    Users can stake their MYCE on the Bloom platform and receive<br> services corresponding to the value
+                    of their assets. The quantity of<br> MYCE to be used is exchanged at a certain rate with the legal
+                    <br>currency according to the actual MYCE market price, and the<br> exchange cost is determined by
+                    the ratio of the amount of<br> currency that can maintain a stable exchange value.<br><br>
 
-                    It has the advantage of maintaining a stable token price because it<br> secures a service with substance, and providing services flexibly<br> even if the number of token holders increases rapidly.
+                    It has the advantage of maintaining a stable token price because it<br> secures a service with
+                    substance, and providing services flexibly<br> even if the number of token holders increases
+                    rapidly.
                   </p>
                 </div>
               </div>
@@ -537,14 +660,20 @@ For Everyone Happy In the World!">
           <p class="nunito fs-48px text-f8f8f8 fw-900 text-start mb-0">Team Members</p>
         </div>
         <div class="col-2">
-          <button class="bg-FF6594 border-0 rounded-3 me-2" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill text-white pb-1" viewBox="0 0 16 16">
-              <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+          <button class="bg-FF6594 border-0 rounded-3 me-2" type="button" data-bs-target="#carouselExampleCaptions2"
+            data-bs-slide="prev">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-caret-left-fill text-white pb-1" viewBox="0 0 16 16">
+              <path
+                d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
             </svg>
           </button>
-          <button class="bg-FF6594 border-0 rounded-3" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-white pb-1" viewBox="0 0 16 16">
-              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+          <button class="bg-FF6594 border-0 rounded-3" type="button" data-bs-target="#carouselExampleCaptions2"
+            data-bs-slide="next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-caret-right-fill text-white pb-1" viewBox="0 0 16 16">
+              <path
+                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
             </svg>
           </button>
         </div>
@@ -677,18 +806,26 @@ For Everyone Happy In the World!">
         <div class="col-2">
         </div>
         <div class="col-5">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="btn btn-ready mx-auto text-start fs-20px w-296px h-56px me-3" aria-current="true" aria-label="Slide 1">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+            class="btn btn-ready mx-auto text-start fs-20px w-296px h-56px me-3" aria-current="true"
+            aria-label="Slide 1">
             Technical
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill float-end mt-2" viewBox="0 0 16 16">
-              <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-caret-down-fill float-end mt-2" viewBox="0 0 16 16">
+              <path
+                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
             </svg>
           </button>
         </div>
         <div class="col-5">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="btn btn-ready mx-auto text-start fs-20px w-296px h-56px me-3" aria-current="true" aria-label="Slide 1">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+            class="btn btn-ready mx-auto text-start fs-20px w-296px h-56px me-3" aria-current="true"
+            aria-label="Slide 1">
             Business
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill float-end mt-2" viewBox="0 0 16 16">
-              <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-caret-down-fill float-end mt-2" viewBox="0 0 16 16">
+              <path
+                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
             </svg>
           </button>
         </div>
@@ -704,38 +841,50 @@ For Everyone Happy In the World!">
         <div class="col-1">
           <div class="Merriweather fs-24px fw-normal text-FF6594 pt-1" style="margin-left: -30px">2020
           </div>
-          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2" style="margin-left: -30px; margin-top: 32px">3Q-4Q
+          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2"
+            style="margin-left: -30px; margin-top: 32px">3Q-4Q
           </div>
           <div class="Merriweather fs-24px fw-normal text-FF6594" style="margin-left: -30px; margin-top: 144px">2021
           </div>
-          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2" style="margin-left: -30px; margin-top: 32px">1Q-2Q
+          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2"
+            style="margin-left: -30px; margin-top: 32px">1Q-2Q
           </div>
-          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2" style="margin-left: -30px; margin-top:151px">3Q-4Q
+          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2"
+            style="margin-left: -30px; margin-top:151px">3Q-4Q
           </div>
           <div class="Merriweather fs-24px fw-normal text-FF6594" style="margin-left: -30px; margin-top: 156px">2022
           </div>
-          <div class="Merriweather fs-24px fw-normal text-FF6594 animation-move2" style="margin-left: -30px; margin-top: 32px">1Q
+          <div class="Merriweather fs-24px fw-normal text-FF6594 animation-move2"
+            style="margin-left: -30px; margin-top: 32px">1Q
           </div>
-          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2" style="margin-left: -30px; margin-top: 140px">2Q
+          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2"
+            style="margin-left: -30px; margin-top: 140px">2Q
           </div>
-          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2" style="margin-left: -30px; margin-top: 152px">3Q
+          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2"
+            style="margin-left: -30px; margin-top: 152px">3Q
           </div>
-          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2" style="margin-left: -30px; margin-top: 142px">4Q
+          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2"
+            style="margin-left: -30px; margin-top: 142px">4Q
           </div>
           <div class="Merriweather fs-24px fw-normal text-FF6594" style="margin-left: -30px; margin-top: 194px">2023
           </div>
-          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2" style="margin-left: -30px; margin-top: 32px">1Q
+          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2"
+            style="margin-left: -30px; margin-top: 32px">1Q
           </div>
-          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2" style="margin-left: -30px; margin-top: 152px">2Q
+          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2"
+            style="margin-left: -30px; margin-top: 152px">2Q
           </div>
-          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2" style="margin-left: -30px; margin-top: 118px">3Q
+          <div class="Merriweather fs-24px fw-normal text-f8f8f8 animation-move2"
+            style="margin-left: -30px; margin-top: 118px">3Q
           </div>
         </div>
         <div class="col-5">
           <div class="his wow fadeInLeft" data-wow-duration="2s" style="margin-top:70px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>MYCE token development and issuance
             </p>
             <p class="fs-14px text-f8f8f8 fw-normal">- Development of token payment system
@@ -743,8 +892,10 @@ For Everyone Happy In the World!">
           </div>
           <div class="his wow fadeInLeft" data-wow-duration="2s" style="margin-top:178px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Alpha version development
             </p>
             <p class="fs-14px text-f8f8f8 fw-normal">- Preparation / amendment / complementation of the service plan<br>
@@ -753,8 +904,10 @@ For Everyone Happy In the World!">
           </div>
           <div class="his wow fadeInLeft" data-wow-duration="2s" style="margin-top:91px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Web, App Close beta service launch<br>
               and Platform Grand Open
             </p>
@@ -764,8 +917,10 @@ For Everyone Happy In the World!">
           </div>
           <div class="his wow fadeInLeft" data-wow-duration="2s" style="margin-top:130px;">
             <p class="fs-24px text-FF6594 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-FF6594" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-FF6594" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>NFT Development
             </p>
             <p class="fs-14px text-FF6594 fw-normal">- NFT Development / Test<br>
@@ -775,8 +930,10 @@ For Everyone Happy In the World!">
           </div>
           <div class="his wow fadeInLeft" data-wow-duration="2s" style="margin-top:41px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Upgrading the system
             </p>
             <p class="fs-14px text-f8f8f8 fw-normal">- Advancement of smart contact<br>
@@ -786,8 +943,10 @@ For Everyone Happy In the World!">
           </div>
           <div class="his wow fadeInLeft" data-wow-duration="2s" style="margin-top:74px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Advancement of token payment <br>service
             </p>
             <p class="fs-14px text-f8f8f8 fw-normal">- NFT alpha version open<br>
@@ -796,8 +955,10 @@ For Everyone Happy In the World!">
           </div>
           <div class="his wow fadeInLeft" data-wow-duration="2s" style="margin-top:48px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Expanding the main-net<br>
               and applying multi-chain
             </p>
@@ -809,8 +970,10 @@ For Everyone Happy In the World!">
           </div>
           <div class="his wow fadeInLeft" data-wow-duration="2s" style="margin-top:125px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Advanced application of NFT
             </p>
             <p class="fs-14px text-f8f8f8 fw-normal">- NFT advanced version open<br>
@@ -820,8 +983,10 @@ For Everyone Happy In the World!">
           </div>
           <div class="his wow fadeInLeft" data-wow-duration="2s" style="margin-top:72px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Multilingual service
             </p>
             <p class="fs-14px text-f8f8f8 fw-normal">- Category enlargement system test<br>
@@ -830,8 +995,10 @@ For Everyone Happy In the World!">
           </div>
           <div class="his wow fadeInLeft" data-wow-duration="2s" style="margin-top:59px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Expanding the category
             </p>
             <p class="fs-14px text-f8f8f8 fw-normal">- Upgrading the category expansion
@@ -841,29 +1008,37 @@ For Everyone Happy In the World!">
         <div class="col-5">
           <div class="his2 wow fadeInLeft" data-wow-duration="2s" style="margin-top:70px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Development of token payment system
             </p>
-            <p class="fs-14px text-f8f8f8 fw-normal">- project planning, business planning, Distribute white paper (Korean, English,<br>&nbsp;&nbsp; Chinese)<br>
+            <p class="fs-14px text-f8f8f8 fw-normal">- project planning, business planning, Distribute white paper
+              (Korean, English,<br>&nbsp;&nbsp; Chinese)<br>
               - Listed on the domestic exchange (Cashierest)
             </p>
           </div>
           <div class="his2 wow fadeInLeft" data-wow-duration="2s" style="margin-top:134px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Re-establishment of service planning directions
             </p>
-            <p class="fs-14px text-f8f8f8 fw-normal">- Establishing a platform settlement policy and operation management<br>
+            <p class="fs-14px text-f8f8f8 fw-normal">- Establishing a platform settlement policy and operation
+              management<br>
               - Acquired a mail order business operator<br>
               - Promotion of partnerships with rental companies / Recruits
             </p>
           </div>
           <div class="his2 wow fadeInLeft" data-wow-duration="2s" style="margin-top:36px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Global exchange launch is complete
             </p>
             <p class="fs-14px text-f8f8f8 fw-normal">- Coin Gecko, Coin Market Cap MYCE Token Listing<br>
@@ -873,8 +1048,10 @@ For Everyone Happy In the World!">
           </div>
           <div class="his2 wow fadeInLeft" data-wow-duration="2s" style="margin-top:146px;">
             <p class="fs-24px text-FF6594 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-FF6594" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-FF6594" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Activation to the platform retention
             </p>
             <p class="fs-14px text-FF6594 fw-normal">- Foundation website renewal : Added CEO message function<br>
@@ -885,18 +1062,23 @@ For Everyone Happy In the World!">
           </div>
           <div class="his2 wow fadeInLeft" data-wow-duration="2s" style="margin-top:41px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Expanding commerce functions and product categories
             </p>
-            <p class="fs-14px text-f8f8f8 fw-normal">- By introducing BM for joint purchase of commerce, membership<br> &nbsp;&nbsp;registration and existing membership retention are induced<br>
+            <p class="fs-14px text-f8f8f8 fw-normal">- By introducing BM for joint purchase of commerce, membership<br>
+              &nbsp;&nbsp;registration and existing membership retention are induced<br>
               - roblem analysis according to service satisfaction survey results
             </p>
           </div>
           <div class="his2 wow fadeInLeft" data-wow-duration="2s" style="margin-top:36px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Introduction of community service
             </p>
             <p class="fs-14px text-f8f8f8 fw-normal">- Introduction of membership and point system<br>
@@ -907,8 +1089,10 @@ For Everyone Happy In the World!">
           </div>
           <div class="his2 wow fadeInLeft" data-wow-duration="2s" style="margin-top:43px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Advancement of service platform
             </p>
             <p class="fs-14px text-f8f8f8 fw-normal">- Accumulated service store 18,000 units<br>
@@ -918,8 +1102,10 @@ For Everyone Happy In the World!">
           </div>
           <div class="his2 wow fadeInLeft" data-wow-duration="2s" style="margin-top:181px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Implementation of platform partner service evaluation point system
             </p>
             <p class="fs-14px text-f8f8f8 fw-normal">- Introduction of a seller and consumer evaluation system<br>
@@ -929,8 +1115,10 @@ For Everyone Happy In the World!">
           </div>
           <div class="his2 wow fadeInLeft" data-wow-duration="2s" style="margin-top:36px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Global service
             </p>
             <p class="fs-14px text-f8f8f8 fw-normal">- Asia (China / Japan) Global service implement<br>
@@ -940,8 +1128,10 @@ For Everyone Happy In the World!">
           </div>
           <div class="his2 wow fadeInLeft" data-wow-duration="2s" style="margin-top:42px;">
             <p class="fs-24px text-f8f8f8 fw-bold">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-caret-right-fill text-f8f8f8" viewBox="0 0 16 16">
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
               </svg>Expanding the large-scale event
             </p>
             <p class="fs-14px text-f8f8f8 fw-normal">- Expanding the category of public/local events
@@ -1056,14 +1246,20 @@ For Everyone Happy In the World!">
           <p class="nunito fs-48px text-f8f8f8 fw-900 text-start mb-0">News & Media</p>
         </div>
         <div class="col-2">
-          <button class="bg-FF6594 border-0 rounded-3 me-2" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="prev">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill text-white pb-1" viewBox="0 0 16 16">
-              <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+          <button class="bg-FF6594 border-0 rounded-3 me-2" type="button" data-bs-target="#carouselExampleCaptions3"
+            data-bs-slide="prev">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-caret-left-fill text-white pb-1" viewBox="0 0 16 16">
+              <path
+                d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
             </svg>
           </button>
-          <button class="bg-FF6594 border-0 rounded-3" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="next">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill text-white pb-1" viewBox="0 0 16 16">
-              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+          <button class="bg-FF6594 border-0 rounded-3" type="button" data-bs-target="#carouselExampleCaptions3"
+            data-bs-slide="next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-caret-right-fill text-white pb-1" viewBox="0 0 16 16">
+              <path
+                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
             </svg>
           </button>
         </div>
@@ -1093,9 +1289,12 @@ For Everyone Happy In the World!">
                     </a>
                   </div>
                   <div class="col-4 mx-auto">
-                    <a href="https://myce-token.medium.com/myce-business-information-session-82be18025ffa" target="_blank" style="width: 100%; height: 100%; display: block;">
-                      <div style="width: 327px; height: 360px; border: 1px solid #fff; border-radius: 8px; background-color: #f8f8f8;">
-                        <img src="img/news-4.jpg" style="width: 325px; height: 180px; border-top-left-radius: 8px; border-top-right-radius: 8px;">
+                    <a href="https://myce-token.medium.com/myce-business-information-session-82be18025ffa"
+                      target="_blank" style="width: 100%; height: 100%; display: block;">
+                      <div
+                        style="width: 327px; height: 360px; border: 1px solid #fff; border-radius: 8px; background-color: #f8f8f8;">
+                        <img src="img/news-4.jpg"
+                          style="width: 325px; height: 180px; border-top-left-radius: 8px; border-top-right-radius: 8px;">
 
                         <div>
                           <p class="fs-11px text-FF6594 mt-16px px-3 mb-0">2021-09-03</p>
@@ -1110,9 +1309,12 @@ For Everyone Happy In the World!">
                     </a>
                   </div>
                   <div class="col-4 mx-auto">
-                    <a href="https://myce-token.medium.com/announcing-myce-coin-ama-event-8f635241b790" target="_blank" style="width: 100%; height: 100%; display: block;">
-                      <div style="width: 327px; height: 360px; border: 1px solid #fff; border-radius: 8px; background-color: #f8f8f8;">
-                        <img src="img/news-5.jpg" style="width: 325px; height: 180px; border-top-left-radius: 8px; border-top-right-radius: 8px;">
+                    <a href="https://myce-token.medium.com/announcing-myce-coin-ama-event-8f635241b790" target="_blank"
+                      style="width: 100%; height: 100%; display: block;">
+                      <div
+                        style="width: 327px; height: 360px; border: 1px solid #fff; border-radius: 8px; background-color: #f8f8f8;">
+                        <img src="img/news-5.jpg"
+                          style="width: 325px; height: 180px; border-top-left-radius: 8px; border-top-right-radius: 8px;">
 
                         <div>
                           <p class="fs-11px text-FF6594 mt-16px px-3 mb-0">2021-09-09</p>
@@ -1146,7 +1348,8 @@ For Everyone Happy In the World!">
                     </a>
                   </div>
                   <div class="col-4 mx-auto news">
-                    <a href="https://myce-token.medium.com/myce-ama-script-and-users-review-588a58a7494c" target="_blank">
+                    <a href="https://myce-token.medium.com/myce-ama-script-and-users-review-588a58a7494c"
+                      target="_blank">
                       <div class="news-text">
                         <img src="img/news-5.jpg">
 
@@ -1197,7 +1400,8 @@ For Everyone Happy In the World!">
                     </a>
                   </div>
                   <div class="col-4 mx-auto news">
-                    <a href="https://myce-token.medium.com/%EB%B9%84%ED%8A%B8%EB%A0%89%EC%8A%A4-%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%97%90%EC%84%9C-%EB%A7%88%EC%9D%B4%EC%8A%A4-myce-%EC%BD%94%EC%9D%B8-%EC%A7%80%EA%B0%91%EC%9D%B4-%EC%98%A4%ED%94%88-1760ee469110" target="_blank">
+                    <a href="https://myce-token.medium.com/%EB%B9%84%ED%8A%B8%EB%A0%89%EC%8A%A4-%EA%B8%80%EB%A1%9C%EB%B2%8C%EC%97%90%EC%84%9C-%EB%A7%88%EC%9D%B4%EC%8A%A4-myce-%EC%BD%94%EC%9D%B8-%EC%A7%80%EA%B0%91%EC%9D%B4-%EC%98%A4%ED%94%88-1760ee469110"
+                      target="_blank">
                       <div class="news-text">
                         <img src="img/news-6.jpg">
 
@@ -1213,7 +1417,8 @@ For Everyone Happy In the World!">
                     </a>
                   </div>
                   <div class="col-4 mx-auto news">
-                    <a href="https://myce-token.medium.com/%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0-%EB%A7%88%EC%9D%B4%EC%8A%A4-myce-%EB%B9%84%ED%8A%B8%EB%A0%89%EC%8A%A4-%EC%83%81%EC%9E%A5-%EC%86%8C%EC%8B%9D-%EC%B6%9C%EC%B2%98-it%EC%A1%B0%EC%84%A0-%EC%9B%90%EB%AC%B8-http-it-chosun-com-site-data-html-dir-2021-10-04-2021100-b2679c3b084a" target="_blank">
+                    <a href="https://myce-token.medium.com/%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0-%EB%A7%88%EC%9D%B4%EC%8A%A4-myce-%EB%B9%84%ED%8A%B8%EB%A0%89%EC%8A%A4-%EC%83%81%EC%9E%A5-%EC%86%8C%EC%8B%9D-%EC%B6%9C%EC%B2%98-it%EC%A1%B0%EC%84%A0-%EC%9B%90%EB%AC%B8-http-it-chosun-com-site-data-html-dir-2021-10-04-2021100-b2679c3b084a"
+                      target="_blank">
                       <div class="news-text">
                         <img src="img/news-6.jpg">
 
@@ -1234,7 +1439,8 @@ For Everyone Happy In the World!">
               <div class="carousel-item" data-bs-interval="100000">
                 <div class="row">
                   <div class="col-4 mx-auto news">
-                    <a href="https://myce-token.medium.com/%EB%A7%88%EC%9D%B4%EC%8A%A4-myce-200%EB%A7%8C%EC%9B%90-%EC%83%81%EB%8B%B9-%EC%97%90%EC%96%B4%EB%93%9C%EB%9E%8D-23633db35f0b" target="_blank">
+                    <a href="https://myce-token.medium.com/%EB%A7%88%EC%9D%B4%EC%8A%A4-myce-200%EB%A7%8C%EC%9B%90-%EC%83%81%EB%8B%B9-%EC%97%90%EC%96%B4%EB%93%9C%EB%9E%8D-23633db35f0b"
+                      target="_blank">
                       <div class="news-text">
                         <img src="img/news-7.jpg">
 
@@ -1249,7 +1455,8 @@ For Everyone Happy In the World!">
                     </a>
                   </div>
                   <div class="col-4 mx-auto news">
-                    <a href="https://myce-token.medium.com/press-myce-the-2nd-offline-meetup-640e7588c3a3" target="_blank">
+                    <a href="https://myce-token.medium.com/press-myce-the-2nd-offline-meetup-640e7588c3a3"
+                      target="_blank">
                       <div class="news-text">
                         <img src="img/news-8.jpg">
 
@@ -1257,14 +1464,16 @@ For Everyone Happy In the World!">
                           <p class="fs-11px text-FF6594 mt-16px px-3 mb-0">2021-10-28</p>
                           <p class="fs-20px fw-bold px-3">MYCE The 2nd Offline Meetup</p>
                           <p class="fs-14px px-3">
-                            Namok, a platform service venture company that operates the “bloom” service, successfully held the 2nd offline meetup on October 22nd...
+                            Namok, a platform service venture company that operates the “bloom” service, successfully
+                            held the 2nd offline meetup on October 22nd...
                           </p>
                         </div>
                       </div>
                     </a>
                   </div>
                   <div class="col-4 mx-auto news">
-                    <a href="https://myce-token.medium.com/press-myce-the-2nd-offline-meetup-640e7588c3a3" target="_blank">
+                    <a href="https://myce-token.medium.com/press-myce-the-2nd-offline-meetup-640e7588c3a3"
+                      target="_blank">
                       <div class="news-text">
                         <img src="img/news-9.jpg">
 
@@ -1442,8 +1651,11 @@ For Everyone Happy In the World!">
         <div class="col-3">
           <button type="button" class="btn btn-partners mx-auto text-start fs-24px w-296px h-56px">
             Crypto Exchange
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
-              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
+              <path
+                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z">
+              </path>
             </svg>
           </button>
         </div>
@@ -1469,8 +1681,11 @@ For Everyone Happy In the World!">
         <div class="col-3">
           <button type="button" class="btn btn-partners mx-auto text-start fs-24px w-296px h-56px">
             Law firm
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
-              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
+              <path
+                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z">
+              </path>
             </svg>
           </button>
         </div>
@@ -1499,8 +1714,11 @@ For Everyone Happy In the World!">
         <div class="col-3">
           <button type="button" class="btn btn-partners mx-auto text-start fs-24px w-296px h-56px">
             Marketing
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
-              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
+              <path
+                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z">
+              </path>
             </svg>
           </button>
         </div>
@@ -1528,8 +1746,11 @@ For Everyone Happy In the World!">
         <div class="col-3">
           <button type="button" class="btn btn-partners mx-auto text-start fs-24px w-296px h-56px">
             Audit
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
-              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
+              <path
+                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z">
+              </path>
             </svg>
           </button>
         </div>
@@ -1556,8 +1777,11 @@ For Everyone Happy In the World!">
         <div class="col-3">
           <button type="button" class="btn btn-partners mx-auto text-start fs-24px w-296px h-56px">
             Developer
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
-              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
+              <path
+                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z">
+              </path>
             </svg>
           </button>
         </div>
@@ -1600,8 +1824,11 @@ For Everyone Happy In the World!">
         <div class="col-3">
           <button type="button" class="btn btn-partners mx-auto text-start fs-24px w-296px h-56px">
             Investment
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
-              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-caret-right-fill float-end mt-2_5" viewBox="0 0 16 16">
+              <path
+                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z">
+              </path>
             </svg>
           </button>
         </div>
@@ -1660,18 +1887,25 @@ For Everyone Happy In the World!">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
         <p class="col-md-4 mb-0 text-muted"><img src="img/footer_logo.svg"></p>
 
-        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <a href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
           <svg class="bi me-2" width="40" height="32">
             <use xlink:href="#bootstrap"></use>
           </svg>
         </a>
 
         <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item cursor-pointer hover_img2"><a onclick="window.open('https://t.me/myce_official')" class="nav-link px-2 text-muted"><img src="img/sns_telegram.svg"></a></li>
-          <li class="nav-item cursor-pointer hover_img2"><a onclick="window.open('https://open.kakao.com/o/g2GiyUFc')" class="nav-link px-2 text-muted"><img src="img/sns_kakao.svg"></a></li>
-          <li class="nav-item cursor-pointer hover_img2"><a onclick="window.open('https://twitter.com/MYCE_official')" class="nav-link px-2 text-muted"><img src="img/sns_twitter.svg"></a></li>
-          <li class="nav-item cursor-pointer hover_img2"><a onclick="window.open('https://myce-token.medium.com/')" class="nav-link px-2 text-muted"><img src="img/sns_medium.svg"></a></li>
-          <li class="nav-item cursor-pointer hover_img2"><a onclick="window.open('https://www.facebook.com/myce.official')" class="nav-link ps-2 pe-0 text-muted"><img src="img/sns_facebook.svg"></a></li>
+          <li class="nav-item cursor-pointer hover_img2"><a onclick="window.open('https://t.me/myce_official')"
+              class="nav-link px-2 text-muted"><img src="img/sns_telegram.svg"></a></li>
+          <li class="nav-item cursor-pointer hover_img2"><a onclick="window.open('https://open.kakao.com/o/g2GiyUFc')"
+              class="nav-link px-2 text-muted"><img src="img/sns_kakao.svg"></a></li>
+          <li class="nav-item cursor-pointer hover_img2"><a onclick="window.open('https://twitter.com/MYCE_official')"
+              class="nav-link px-2 text-muted"><img src="img/sns_twitter.svg"></a></li>
+          <li class="nav-item cursor-pointer hover_img2"><a onclick="window.open('https://myce-token.medium.com/')"
+              class="nav-link px-2 text-muted"><img src="img/sns_medium.svg"></a></li>
+          <li class="nav-item cursor-pointer hover_img2"><a
+              onclick="window.open('https://www.facebook.com/myce.official')" class="nav-link ps-2 pe-0 text-muted"><img
+                src="img/sns_facebook.svg"></a></li>
         </ul>
 
       </footer>
@@ -1709,10 +1943,12 @@ For Everyone Happy In the World!">
 	<div class="bg3">
 	</div>
 -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/jquery_setting.js"></script>
   <script>
-    $(function() {
-      $(".lang").mouseenter(function() {
+    $(function () {
+      $(".lang").mouseenter(function () {
         $(".lang_list .lang_en").animate({
           "opacity": "1"
         }, 500);
@@ -1721,7 +1957,7 @@ For Everyone Happy In the World!">
         }, 1000);
       });
 
-      $(".lang").mouseleave(function() {
+      $(".lang").mouseleave(function () {
         $(".lang_list .lang_kr").animate({
           "opacity": "0"
         }, 500);
@@ -1730,7 +1966,7 @@ For Everyone Happy In the World!">
         }, 1000);
       });
 
-      $(".dep").mouseenter(function() {
+      $(".dep").mouseenter(function () {
         $(this).children(".dep2").css({
           "display": "table"
         });
@@ -1739,12 +1975,14 @@ For Everyone Happy In the World!">
         }, 200);
       });
 
-      $(".dep").mouseleave(function() {
+      $(".dep").mouseleave(function () {
         $(this).children(".dep2").css({
           "display": "none",
           "bottom": "-300px"
         });
       });
+
+      $('.')
     });
   </script>
   <script>
@@ -1752,7 +1990,7 @@ For Everyone Happy In the World!">
       rightArrow = document.getElementsByClassName('rightArrow')[0],
       leftArrow = document.getElementsByClassName('leftArrow')[0];
 
-    leftArrow.onclick = function() {
+    leftArrow.onclick = function () {
       var temp = slide[0].getAttribute('class');
 
       slide[0].setAttribute('class', slide[1].getAttribute('class'));
@@ -1762,7 +2000,7 @@ For Everyone Happy In the World!">
       slide[2].setAttribute('class', temp);
     }
 
-    rightArrow.onclick = function() {
+    rightArrow.onclick = function () {
       var temp = slide[0].getAttribute('class');
       console.log(temp);
 
@@ -1776,23 +2014,26 @@ For Everyone Happy In the World!">
   <script type="text/javascript" src="js/gototop.js"></script>
 
   <script>
-    $(function() {
+    $(function () {
       $(".btn-about-myce").addClass("btn-about-myce-active");
-      $(".btn-ready").click(function() {
+      $(".btn-ready").click(function () {
         $(".btn-about-myce").removeClass("btn-about-myce-active");
       });
     });
   </script>
 
   <script>
-    $(function() {
+    $(function () {
       $("#loading-wrapper").fadeOut(2900);
+      window.setTimeout(function() {
+      $("body").removeClass("position-fixed w-100");
+    }, 2900); //2초 지연(화면 로딩중 스크롤방지)
     });
+    
   </script>
   <script>
     history.scrollRestoration = "manual"
   </script>
-
 
 </body>
 

@@ -1,5 +1,6 @@
 html {
 	scroll-behavior: smooth;
+	scroll-behavior: ;
 }
 
 body {
@@ -102,7 +103,6 @@ a:hover {
 	background-size: cover;
 	background-attachment: local;
 	/*어태치먼트 local값은 이전이미지가 fixed 되어있으면 그 위로 타고 올라감(이전이미지도 local이면 일반 스크롤로보임)*/
-
 }
 
 /*gnb:s*/
@@ -229,7 +229,6 @@ a:hover {
 	text-decoration: none;
 	z-index: 999;
     color: #ffffff !important;
-
 }
 
 .c-go-top:hover,
@@ -266,7 +265,6 @@ a:hover {
 	}
 }
 /*1번 애니메이션:e*/
-
 
 /*2번 애니메이션:s*/
 .animation-move-x {
@@ -487,7 +485,7 @@ transform: scale(1.00);	}
 }
 /*x축 호버 애니메이션:e*/
 
-/*애니메이션 시리즈:e*/
+/* 애니메이션 시리즈:e 05-18 여기까지 작업함 */
 
 .moving-left{
   transition: transform 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
