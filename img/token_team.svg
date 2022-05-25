@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="608" height="47" viewBox="0 0 608 47">
+  <g id="그룹_820" data-name="그룹 820" transform="translate(-968 -5627)">
+    <g id="text_box" data-name="text box" transform="translate(968 5627)">
+      <path id="패스_215" data-name="패스 215" d="M8,0H600a8,8,0,0,1,8,8V39a8,8,0,0,1-8,8H8a8,8,0,0,1-8-8V8A8,8,0,0,1,8,0Z" fill="rgba(137,144,159,0.5)"/>
+    </g>
+    <text id="Team" transform="translate(1090 5658)" fill="#fff" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">Team</tspan></text>
+    <text id="_13.30_" data-name="13.30%" transform="translate(1295 5658)" fill="#fff" font-size="20" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="0" y="0">13.30%</tspan></text>
+    <text id="_399_000_000" data-name="399,000,000" transform="translate(1423 5658)" fill="#fff" font-size="20" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="0" y="0">399,000,000</tspan></text>
+    <rect id="사각형_205" data-name="사각형 205" width="1" height="31" transform="translate(1263 5635)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="608" height="222" viewBox="0 0 608 222">
+  <g id="그룹_559" data-name="그룹 559" transform="translate(-344 -3149)">
+    <g id="text_box" data-name="text box" transform="translate(344 3165)">
+      <rect id="사각형_1" data-name="사각형 1" width="608" height="206" rx="8" fill="#fff"/>
+    </g>
+    <text id="SAFU_and_rewards_for_Bug_Bounties" data-name="SAFU and rewards for Bug Bounties" transform="translate(376 3280)" fill="#232323" font-size="14" font-family="NotoSans, Noto Sans"><tspan x="0" y="15">SAFU and rewards for Bug Bounties</tspan></text>
+    <text id="SAFU" transform="translate(376 3223)" fill="#3659ea" font-size="24" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="0" y="0">SAFU</tspan></text>
+    <text id="_0.95_28_500_000" data-name="0.95%
+28,500,000" transform="translate(920 3218)" fill="#232323" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="-56.3" y="0">0.95%</tspan><tspan x="-102.24" y="32">28,500,000</tspan></text>
+    <path id="다각형_1" data-name="다각형 1" d="M15.6,3.2a3,3,0,0,1,4.8,0l12,16A3,3,0,0,1,30,24H6a3,3,0,0,1-2.4-4.8Z" transform="translate(900 3149)" fill="#fff"/>
+  </g>
+</svg>

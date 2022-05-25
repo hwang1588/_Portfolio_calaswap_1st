@@ -1,5 +1,3 @@
-
-
 /* Link */
 function navLink(item) {
 	var hrefURL = $(item).attr("href")	

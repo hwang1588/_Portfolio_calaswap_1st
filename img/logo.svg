@@ -1,0 +1,23 @@
+<svg id="레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69.28" height="80" viewBox="0 0 69.28 80">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.053" y1="0.5" x2="1.469" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3d5eff"/>
+      <stop offset="0.7" stop-color="#a4b1ff"/>
+      <stop offset="1" stop-color="#bac7ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0.374" x2="0.5" y2="0.789" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.895" y1="0.5" x2="0.031" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3d5eff"/>
+      <stop offset="1" stop-color="#a4b1ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="1.006" x2="0.5" y2="0.032" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="레이어_1" data-name="레이어 1">
+    <g id="그룹_289" data-name="그룹 289">
+      <path id="패스_149" data-name="패스 149" d="M112.241,155.295l-13,7.5-.035-.021v15.067l13.031-7.525,8.576-4.951V150.34Z" transform="translate(-64.568 -97.845)" fill="url(#linear-gradient)"/>
+      <path id="패스_150" data-name="패스 150" d="M120.817,12.476h0l-8.576-4.951L99.21,0V64.933l.035.021,13-7.5V22.55l8.576,4.955h0V67.524L133.848,60V20Z" transform="translate(-64.568)" fill="url(#linear-gradient-2)"/>
+      <path id="패스_151" data-name="패스 151" d="M13.031,41.53h0l8.579-4.955V21.55L13.031,26.5h0L0,34.026v40l13.031,7.525h0L21.611,86.5V71.475l-8.579-4.955h0Z" transform="translate(0 -14.025)" fill="url(#linear-gradient-3)"/>
+      <path id="패스_152" data-name="패스 152" d="M61.89,7.525v64.95L74.921,80V0Z" transform="translate(-40.279)" fill="url(#linear-gradient-4)"/>
+    </g>
+  </g>
+</svg>

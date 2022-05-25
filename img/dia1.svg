@@ -1,0 +1,280 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1232" height="687" viewBox="0 0 1232 687">
+  <g id="그룹_575" data-name="그룹 575" transform="translate(493 -2951)">
+    <g id="text_box" data-name="text box" transform="translate(-493 2951)">
+      <rect id="사각형_1" data-name="사각형 1" width="1232" height="687" rx="8" fill="rgba(137,144,159,0.5)"/>
+    </g>
+    <g id="그룹_570" data-name="그룹 570">
+      <g id="그룹_359" data-name="그룹 359" transform="translate(11 5)">
+        <rect id="사각형_161" data-name="사각형 161" width="160" height="60" rx="8" transform="translate(32 3023)" fill="#fff"/>
+        <text id="Staking" transform="translate(77 3061)" fill="#3659ea" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">Staking</tspan></text>
+      </g>
+      <g id="그룹_360" data-name="그룹 360" transform="translate(11 8)">
+        <rect id="사각형_165" data-name="사각형 165" width="160" height="60" rx="8" transform="translate(32 3160)" fill="#fff"/>
+        <text id="Governance" transform="translate(56 3198)" fill="#3659ea" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">Governance</tspan></text>
+      </g>
+      <g id="그룹_361" data-name="그룹 361" transform="translate(11 11)">
+        <rect id="사각형_166" data-name="사각형 166" width="160" height="60" rx="8" transform="translate(32 3257)" fill="#fff"/>
+        <text id="LP" transform="translate(112 3295)" fill="#3659ea" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="-11.29" y="0">LP</tspan></text>
+      </g>
+      <g id="그룹_362" data-name="그룹 362" transform="translate(11 14)">
+        <rect id="사각형_167" data-name="사각형 167" width="160" height="60" rx="8" transform="translate(32 3353)" fill="#fff"/>
+        <text id="Factory" transform="translate(112 3391)" fill="#3659ea" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="-34.49" y="0">Factory</tspan></text>
+      </g>
+      <g id="그룹_363" data-name="그룹 363" transform="translate(11 13)">
+        <rect id="사각형_168" data-name="사각형 168" width="160" height="60" rx="8" transform="translate(32 3494)" fill="#fff"/>
+        <text id="Buyback" transform="translate(112 3532)" fill="#3659ea" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="-39.68" y="0">Buyback</tspan></text>
+      </g>
+      <g id="그룹_368" data-name="그룹 368" transform="translate(97 13)">
+        <rect id="사각형_169" data-name="사각형 169" width="160" height="60" rx="8" transform="translate(-374 3494)" fill="#fff"/>
+        <text id="Farm" transform="translate(-294 3532)" fill="#3659ea" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="-24.28" y="0">Farm</tspan></text>
+      </g>
+      <g id="그룹_367" data-name="그룹 367" transform="translate(97 8)">
+        <rect id="사각형_170" data-name="사각형 170" width="160" height="60" rx="8" transform="translate(-374 3160)" fill="#fff"/>
+        <text id="Router" transform="translate(-294 3198)" fill="#3659ea" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="-31.83" y="0">Router</tspan></text>
+      </g>
+      <g id="그룹_364" data-name="그룹 364" transform="translate(-75 8)">
+        <rect id="사각형_171" data-name="사각형 171" width="160" height="60" rx="8" transform="translate(438 3160)" fill="#fff"/>
+        <text id="Voting" transform="translate(518 3198)" fill="#3659ea" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="-30.37" y="0">Voting</tspan></text>
+      </g>
+      <g id="그룹_365" data-name="그룹 365" transform="translate(-75 11)">
+        <rect id="사각형_172" data-name="사각형 172" width="160" height="60" rx="8" transform="translate(438 3257)" fill="#fff"/>
+        <text id="Community_Pool" data-name="Community
+Pool" transform="translate(518 3283)" fill="#3659ea" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="-54.72" y="0">Community</tspan><tspan x="-20.73" y="24">Pool</tspan></text>
+      </g>
+      <g id="그룹_366" data-name="그룹 366" transform="translate(-75 14)">
+        <rect id="사각형_173" data-name="사각형 173" width="160" height="60" rx="8" transform="translate(438 3353)" fill="#fff"/>
+        <text id="Treasury" transform="translate(518 3391)" fill="#3659ea" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="-40.44" y="0">Treasury</tspan></text>
+      </g>
+      <g id="그룹_358" data-name="그룹 358" transform="translate(11 -3)">
+        <rect id="사각형_164" data-name="사각형 164" width="2" height="40" transform="translate(111 3111)" fill="#f8f8f8"/>
+        <g id="그룹_356" data-name="그룹 356" transform="translate(-19 -6)">
+          <rect id="사각형_46" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+          <path id="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+        <g id="그룹_370" data-name="그룹 370" transform="translate(243 6268) rotate(180)">
+          <rect id="사각형_46-2" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+          <path id="next_ars-2" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_430" data-name="그룹 430" transform="translate(11 127.037)">
+        <g id="그룹_356-2" data-name="그룹 356" transform="translate(106 3106)">
+          <rect id="사각형_46-3" data-name="사각형 46" width="12" height="12" transform="translate(0 11.963) rotate(-90)" fill="none"/>
+          <path id="next_ars-3" data-name="next_ars" d="M7.389,6.779,1.716,11.742A1.035,1.035,0,0,1,0,10.963V1.036A1.035,1.035,0,0,1,1.717.257L7.388,5.22a1.035,1.035,0,0,1,0,1.559Z" transform="translate(0 9.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+        <g id="그룹_370-2" data-name="그룹 370" transform="translate(118 3133.963) rotate(180)">
+          <rect id="사각형_46-4" data-name="사각형 46" width="12" height="12" transform="translate(0 12) rotate(-90)" fill="none"/>
+          <path id="next_ars-4" data-name="next_ars" d="M7.389,6.779,1.716,11.742A1.035,1.035,0,0,1,0,10.963V1.036A1.035,1.035,0,0,1,1.717.257L7.388,5.22a1.035,1.035,0,0,1,0,1.559Z" transform="translate(0 9.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_372" data-name="그룹 372" transform="translate(-2883 3310) rotate(-90)">
+        <rect id="사각형_164-2" data-name="사각형 164" width="2" height="110" transform="translate(111 3111)" fill="#f8f8f8"/>
+        <g id="그룹_356-3" data-name="그룹 356" transform="translate(-19 -6)">
+          <rect id="사각형_46-5" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+          <path id="next_ars-5" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+        <g id="그룹_370-3" data-name="그룹 370" transform="translate(243 6338) rotate(180)">
+          <rect id="사각형_46-6" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+          <path id="next_ars-6" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_375" data-name="그룹 375" transform="translate(-3203 3310) rotate(-90)">
+        <rect id="사각형_164-3" data-name="사각형 164" width="2" height="110" transform="translate(111 3111)" fill="#f8f8f8"/>
+        <g id="그룹_356-4" data-name="그룹 356" transform="translate(-19 -6)">
+          <rect id="사각형_46-7" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+          <path id="next_ars-7" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+        <g id="그룹_370-4" data-name="그룹 370" transform="translate(243 6338) rotate(180)">
+          <rect id="사각형_46-8" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+          <path id="next_ars-8" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_428" data-name="그룹 428" transform="translate(-2568.921 1341.091) rotate(-50)">
+        <rect id="사각형_164-4" data-name="사각형 164" width="2" height="135.383" transform="translate(111 3110.085)" fill="#f8f8f8"/>
+        <g id="그룹_356-5" data-name="그룹 356" transform="translate(106 3102)">
+          <rect id="사각형_46-9" data-name="사각형 46" width="10.78" height="10.78" transform="translate(0 10.78) rotate(-90)" fill="none"/>
+          <path id="next_ars-9" data-name="next_ars" d="M6.638,6.779l-5.1,4.963A.923.923,0,0,1,0,10.963V1.036A1.047,1.047,0,0,1,.545.093a.857.857,0,0,1,1,.164L6.637,5.22a1.114,1.114,0,0,1,0,1.559Z" transform="translate(0 8.752) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+        <g id="그룹_370-5" data-name="그룹 370" transform="translate(118 3253.553) rotate(180)">
+          <rect id="사각형_46-10" data-name="사각형 46" width="10.78" height="10.78" transform="translate(0 10.78) rotate(-90)" fill="none"/>
+          <path id="next_ars-10" data-name="next_ars" d="M6.638,6.779l-5.1,4.963A.923.923,0,0,1,0,10.963V1.036A1.047,1.047,0,0,1,.545.093a.857.857,0,0,1,1,.164L6.637,5.22a1.114,1.114,0,0,1,0,1.559Z" transform="translate(0 8.752) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_373" data-name="그룹 373" transform="translate(-2883 3410) rotate(-90)">
+        <rect id="사각형_164-5" data-name="사각형 164" width="2" height="110" transform="translate(111 3111)" fill="#f8f8f8"/>
+        <g id="그룹_356-6" data-name="그룹 356" transform="translate(-19 -6)">
+          <rect id="사각형_46-11" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+          <path id="next_ars-11" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_569" data-name="그룹 569" transform="translate(-1883.922 5626.398) rotate(-135)">
+        <rect id="사각형_164-6" data-name="사각형 164" width="2" height="150" transform="translate(111 3111)" fill="#f8f8f8"/>
+        <g id="그룹_356-7" data-name="그룹 356" transform="translate(-19 -6)">
+          <rect id="사각형_46-12" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+          <path id="next_ars-12" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_435" data-name="그룹 435" transform="translate(-2398.939 5024.691) rotate(-120)">
+        <rect id="사각형_164-7" data-name="사각형 164" width="2" height="110" transform="translate(111 3111)" fill="#f8f8f8"/>
+        <g id="그룹_356-8" data-name="그룹 356" transform="translate(-19 -6)">
+          <rect id="사각형_46-13" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+          <path id="next_ars-13" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_380" data-name="그룹 380" transform="translate(-2883 3160) rotate(-90)">
+        <rect id="사각형_164-8" data-name="사각형 164" width="2" height="110" transform="translate(111 3111)" fill="#f8f8f8"/>
+        <g id="그룹_356-9" data-name="그룹 356" transform="translate(-19 -6)">
+          <rect id="사각형_46-14" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+          <path id="next_ars-14" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_381" data-name="그룹 381" transform="translate(3440 2956) rotate(90)">
+        <rect id="사각형_164-9" data-name="사각형 164" width="2" height="110" transform="translate(111 3111)" fill="#f8f8f8"/>
+        <g id="그룹_356-10" data-name="그룹 356" transform="translate(-19 -6)">
+          <rect id="사각형_46-15" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+          <path id="next_ars-15" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_371" data-name="그룹 371" transform="translate(11 228)">
+        <g id="그룹_356-11" data-name="그룹 356" transform="translate(-19 -3)">
+          <rect id="사각형_46-16" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+          <path id="next_ars-16" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+        <g id="그룹_370-6" data-name="그룹 370" transform="translate(243 6242) rotate(180)">
+          <rect id="사각형_46-17" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+          <path id="next_ars-17" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_376" data-name="그룹 376" transform="translate(-150 131)">
+        <g id="사각형_174" data-name="사각형 174" transform="translate(502 2891)" fill="#3659ea" stroke="#a2b5ff" stroke-width="8">
+          <rect width="183" height="72" rx="36" stroke="none"/>
+          <rect x="-4" y="-4" width="191" height="80" rx="40" fill="none"/>
+        </g>
+        <text id="Staking_Voting_user" data-name="Staking
+&amp; Voting user" transform="translate(594 2921.806)" fill="#fff" font-size="20" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="-38.04" y="0">Staking</tspan><tspan x="-67.47" y="26">&amp; Voting user</tspan></text>
+      </g>
+      <g id="그룹_377" data-name="그룹 377" transform="translate(-791 131)">
+        <g id="사각형_174-2" data-name="사각형 174" transform="translate(502 2891)" fill="#3659ea" stroke="#a2b5ff" stroke-width="8">
+          <rect width="183" height="72" rx="36" stroke="none"/>
+          <rect x="-4" y="-4" width="191" height="80" rx="40" fill="none"/>
+        </g>
+        <text id="Trader" transform="translate(594 2935)" fill="#fff" font-size="20" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="-32.45" y="0">Trader</tspan></text>
+      </g>
+      <g id="그룹_378" data-name="그룹 378" transform="translate(-791 470)">
+        <g id="사각형_174-3" data-name="사각형 174" transform="translate(502 2891)" fill="#3659ea" stroke="#a2b5ff" stroke-width="8">
+          <rect width="183" height="72" rx="36" stroke="none"/>
+          <rect x="-4" y="-4" width="191" height="80" rx="40" fill="none"/>
+        </g>
+        <text id="Liquidity_Provider" data-name="Liquidity
+Provider" transform="translate(594 2922)" fill="#fff" font-size="20" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="-44.06" y="0">Liquidity</tspan><tspan x="-42.13" y="26">Provider</tspan></text>
+      </g>
+      <g id="그룹_379" data-name="그룹 379" transform="translate(-150 610)">
+        <g id="사각형_174-4" data-name="사각형 174" transform="translate(502 2891)" fill="#3659ea" stroke="#a2b5ff" stroke-width="8">
+          <rect width="183" height="72" rx="36" stroke="none"/>
+          <rect x="-4" y="-4" width="191" height="80" rx="40" fill="none"/>
+        </g>
+        <text id="Airdrop_Operator" data-name="Airdrop
+Operator" transform="translate(594 2922)" fill="#fff" font-size="20" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="-37.48" y="0">Airdrop</tspan><tspan x="-45.65" y="26">Operator</tspan></text>
+      </g>
+      <text id="Staking-2" data-name="Staking" transform="translate(251 3034)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">Staking</tspan></text>
+      <text id="Staking_Reward" data-name="Staking Reward" transform="translate(221 3094)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">Staking Reward</tspan></text>
+      <text id="Liquidity_Supply" data-name="Liquidity Supply" transform="translate(-87 3375)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">Liquidity Supply</tspan></text>
+      <text id="Transaction_Fee" data-name="Transaction Fee" transform="translate(-86 3435)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">Transaction Fee</tspan></text>
+      <text id="Transaction_Fee-2" data-name="Transaction Fee" transform="translate(-14 3473)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">Transaction Fee</tspan></text>
+      <text id="Reward" transform="translate(-272 3476)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">Reward</tspan></text>
+      <text id="Deposit" transform="translate(-178 3476)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">Deposit</tspan></text>
+      <text id="Airdrop" transform="translate(255 3424)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">Airdrop</tspan></text>
+      <text id="Buyback-2" data-name="Buyback" transform="translate(142 3473)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">Buyback</tspan></text>
+      <text id="Airdrop_setting" data-name="Airdropsetting" transform="translate(400 3458)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="-28.144" y="0">Airdrop</tspan><tspan x="-26.048" y="20">setting</tspan></text>
+      <g id="그룹_405" data-name="그룹 405" transform="translate(-309 4.02)">
+        <rect id="사각형_164-10" data-name="사각형 164" width="2" height="34" transform="translate(111 3109.98)" fill="#f8f8f8"/>
+        <g id="그룹_356-12" data-name="그룹 356" transform="translate(106 3101.287)">
+          <rect id="사각형_46-18" data-name="사각형 46" width="12" height="12" transform="translate(0 11.694) rotate(-90)" fill="none"/>
+          <path id="next_ars-18" data-name="next_ars" d="M7.389,6.779,1.716,11.742A1.035,1.035,0,0,1,0,10.963V1.036A1.035,1.035,0,0,1,1.717.257L7.388,5.22a1.035,1.035,0,0,1,0,1.559Z" transform="translate(0 10.456) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+        <g id="그룹_370-7" data-name="그룹 370" transform="translate(118 3152.98) rotate(180)">
+          <rect id="사각형_46-19" data-name="사각형 46" width="12" height="12" transform="translate(0 12) rotate(-90)" fill="none"/>
+          <path id="next_ars-19" data-name="next_ars" d="M7.389,6.779,1.716,11.742A1.035,1.035,0,0,1,0,10.963V1.036A1.035,1.035,0,0,1,1.717.257L7.388,5.22a1.035,1.035,0,0,1,0,1.559Z" transform="translate(0 10.237) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_407" data-name="그룹 407" transform="translate(3134 3277) rotate(90)">
+        <rect id="사각형_164-11" data-name="사각형 164" width="2" height="110" transform="translate(111 3111)" fill="#f8f8f8"/>
+        <g id="그룹_356-13" data-name="그룹 356" transform="translate(-19 -6)">
+          <rect id="사각형_46-20" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+          <path id="next_ars-20" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_409" data-name="그룹 409" transform="translate(-3189 3521) rotate(-90)">
+        <rect id="사각형_164-12" data-name="사각형 164" width="2" height="110" transform="translate(111 3111)" fill="#f8f8f8"/>
+        <g id="그룹_356-14" data-name="그룹 356" transform="translate(-19 -6)">
+          <rect id="사각형_46-21" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+          <path id="next_ars-21" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_418" data-name="그룹 418" transform="translate(331.5 331.144)">
+        <rect id="사각형_164-13" data-name="사각형 164" width="2" height="45.712" transform="translate(111 3108)" fill="#f8f8f8"/>
+        <g id="그룹_356-15" data-name="그룹 356" transform="translate(106 3102)">
+          <rect id="사각형_46-22" data-name="사각형 46" width="12" height="12" transform="translate(0 12) rotate(-90)" fill="none"/>
+          <path id="next_ars-22" data-name="next_ars" d="M7.389,6.779,1.716,11.742A1.035,1.035,0,0,1,0,10.963V1.036A1.035,1.035,0,0,1,1.717.257L7.388,5.22a1.035,1.035,0,0,1,0,1.559Z" transform="translate(0 9.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_426" data-name="그룹 426" transform="translate(-299 342.094)">
+        <rect id="사각형_164-14" data-name="사각형 164" width="2" height="45.712" transform="translate(111 3108)" fill="#f8f8f8"/>
+        <g id="그룹_356-16" data-name="그룹 356" transform="translate(106 3102)">
+          <rect id="사각형_46-23" data-name="사각형 46" width="12" height="12" transform="translate(0 12) rotate(-90)" fill="none"/>
+          <path id="next_ars-23" data-name="next_ars" d="M7.389,6.779,1.716,11.742A1.035,1.035,0,0,1,0,10.963V1.036A1.035,1.035,0,0,1,1.717.257L7.388,5.22a1.035,1.035,0,0,1,0,1.559Z" transform="translate(0 9.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_439" data-name="그룹 439" transform="translate(332 130.698)">
+        <g id="그룹_356-17" data-name="그룹 356" transform="translate(106 3111)">
+          <rect id="사각형_46-24" data-name="사각형 46" width="12" height="12" transform="translate(0 12) rotate(-90)" fill="none"/>
+          <path id="next_ars-24" data-name="next_ars" d="M7.389,6.779,1.716,11.742A1.035,1.035,0,0,1,0,10.963V1.036A1.035,1.035,0,0,1,1.717.257L7.388,5.22a1.035,1.035,0,0,1,0,1.559Z" transform="translate(0 9.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_443" data-name="그룹 443" transform="translate(-95 6597.712) rotate(180)">
+        <rect id="사각형_164-15" data-name="사각형 164" width="2" height="45.712" transform="translate(111 3108)" fill="#f8f8f8"/>
+        <g id="그룹_356-18" data-name="그룹 356" transform="translate(106 3102)">
+          <rect id="사각형_46-25" data-name="사각형 46" width="12" height="12" transform="translate(0 12) rotate(-90)" fill="none"/>
+          <path id="next_ars-25" data-name="next_ars" d="M7.389,6.779,1.716,11.742A1.035,1.035,0,0,1,0,10.963V1.036A1.035,1.035,0,0,1,1.717.257L7.388,5.22a1.035,1.035,0,0,1,0,1.559Z" transform="translate(0 9.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <text id="Voting-2" data-name="Voting" transform="translate(374.5 3137.051)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">Voting</tspan></text>
+      <text id="Voting_Reward" data-name="Voting
+Reward" transform="translate(489.5 3125.051)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="-24.296" y="0">Voting</tspan><tspan x="-28.168" y="24">Reward</tspan></text>
+      <g id="그룹_449" data-name="그룹 449" transform="translate(340.5 3.144)">
+        <rect id="사각형_164-16" data-name="사각형 164" width="2" height="45.712" transform="translate(111 3108)" fill="#f8f8f8"/>
+        <g id="그룹_356-19" data-name="그룹 356" transform="translate(106 3102)">
+          <rect id="사각형_46-26" data-name="사각형 46" width="12" height="12" transform="translate(0 12) rotate(-90)" fill="none"/>
+          <path id="next_ars-26" data-name="next_ars" d="M7.389,6.779,1.716,11.742A1.035,1.035,0,0,1,0,10.963V1.036A1.035,1.035,0,0,1,1.717.257L7.388,5.22a1.035,1.035,0,0,1,0,1.559Z" transform="translate(0 9.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_450" data-name="그룹 450" transform="translate(544.5 6258.763) rotate(180)">
+        <rect id="사각형_164-17" data-name="사각형 164" width="2" height="45.618" transform="translate(111 3108)" fill="#f8f8f8"/>
+        <g id="그룹_356-20" data-name="그룹 356" transform="translate(106 3102)">
+          <rect id="사각형_46-27" data-name="사각형 46" width="12" height="12" transform="translate(0 12) rotate(-90)" fill="none"/>
+          <path id="next_ars-27" data-name="next_ars" d="M7.389,6.779,1.716,11.742A1.035,1.035,0,0,1,0,10.963V1.036A1.035,1.035,0,0,1,1.717.257L7.388,5.22a1.035,1.035,0,0,1,0,1.559Z" transform="translate(0 9.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_451" data-name="그룹 451" transform="translate(127 3437.993)">
+        <rect id="사각형_164-18" data-name="사각형 164" width="2" height="52.007" transform="translate(5 6)" fill="#f8f8f8"/>
+        <g id="그룹_356-21" data-name="그룹 356">
+          <rect id="사각형_46-28" data-name="사각형 46" width="12" height="12" transform="translate(0 12.007) rotate(-90)" fill="none"/>
+          <path id="next_ars-28" data-name="next_ars" d="M7.389,6.779,1.716,11.742A1.035,1.035,0,0,1,0,10.963V1.036A1.035,1.035,0,0,1,1.717.257L7.388,5.22a1.035,1.035,0,0,1,0,1.559Z" transform="translate(0 9.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_452" data-name="그룹 452" transform="translate(119 3522.504) rotate(180)">
+        <rect id="사각형_164-19" data-name="사각형 164" width="2" height="52.604" transform="translate(5 31.604)" fill="#f8f8f8"/>
+        <g id="그룹_356-22" data-name="그룹 356" transform="translate(0 26.09)">
+          <rect id="사각형_46-29" data-name="사각형 46" width="12" height="12" transform="translate(0 12.414) rotate(-90)" fill="none"/>
+          <path id="next_ars-29" data-name="next_ars" d="M7.389,6.779,1.716,11.742A1.035,1.035,0,0,1,0,10.963V1.036A1.035,1.035,0,0,1,1.717.257L7.388,5.22a1.035,1.035,0,0,1,0,1.559Z" transform="translate(0 9.256) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_454" data-name="그룹 454" transform="translate(-2883 3508) rotate(-90)">
+        <rect id="사각형_164-20" data-name="사각형 164" width="2" height="110" transform="translate(111 3111)" fill="#f8f8f8"/>
+        <g id="그룹_356-23" data-name="그룹 356" transform="translate(-19 -6)">
+          <rect id="사각형_46-30" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+          <path id="next_ars-30" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

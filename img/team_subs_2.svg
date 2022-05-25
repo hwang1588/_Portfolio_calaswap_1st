@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="608" height="222" viewBox="0 0 608 222">
+  <g id="그룹_556" data-name="그룹 556" transform="translate(-344 -3149)">
+    <g id="text_box" data-name="text box" transform="translate(344 3165)">
+      <rect id="사각형_1" data-name="사각형 1" width="608" height="206" rx="8" fill="#fff"/>
+    </g>
+    <text id="Members_and_advisors_who_have_led_the_project" data-name="Members and advisors who have led the project" transform="translate(376 3280)" fill="#232323" font-size="14" font-family="NotoSans, Noto Sans"><tspan x="0" y="15">Members and advisors who have led the project</tspan></text>
+    <text id="Team_Advisors" data-name="Team &amp; Advisors" transform="translate(376 3223)" fill="#3659ea" font-size="24" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="0" y="0">Team &amp; Advisors</tspan></text>
+    <text id="_13.30_399_000_000" data-name="13.30%
+399,000,000" transform="translate(920 3218)" fill="#232323" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="-67.74" y="0">13.30%</tspan><tspan x="-113.68" y="32">399,000,000</tspan></text>
+    <path id="다각형_1" data-name="다각형 1" d="M15.6,3.2a3,3,0,0,1,4.8,0l12,16A3,3,0,0,1,30,24H6a3,3,0,0,1-2.4-4.8Z" transform="translate(900 3149)" fill="#fff"/>
+  </g>
+</svg>

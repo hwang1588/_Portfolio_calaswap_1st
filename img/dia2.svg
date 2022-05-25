@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1232" height="687" viewBox="0 0 1232 687">
+  <g id="그룹_574" data-name="그룹 574" transform="translate(-804 -2940)">
+    <g id="text_box" data-name="text box" transform="translate(804 2940)">
+      <rect id="사각형_1" data-name="사각형 1" width="1232" height="687" rx="8" fill="rgba(137,144,159,0.5)"/>
+    </g>
+    <g id="그룹_460" data-name="그룹 460" transform="translate(-89 -9)">
+      <g id="그룹_417" data-name="그룹 417">
+        <rect id="사각형_161" data-name="사각형 161" width="200" height="60" rx="8" transform="translate(1396 3023)" fill="#fff"/>
+        <text id="Transaction_Fee_Mining_Pool" data-name="Transaction Fee
+Mining Pool" transform="translate(1496 3049)" fill="#3659ea" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="-73.47" y="0">Transaction Fee</tspan><tspan x="-56.07" y="24">Mining Pool</tspan></text>
+      </g>
+      <g id="그룹_382" data-name="그룹 382" transform="translate(1240 126)">
+        <g id="사각형_174" data-name="사각형 174" transform="translate(502 2891)" fill="#3659ea" stroke="#a2b5ff" stroke-width="8">
+          <rect width="183" height="72" rx="36" stroke="none"/>
+          <rect x="-4" y="-4" width="191" height="80" rx="40" fill="none"/>
+        </g>
+        <text id="Trader" transform="translate(594 2935)" fill="#fff" font-size="20" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="-32.45" y="0">Trader</tspan></text>
+      </g>
+      <g id="그룹_401" data-name="그룹 401" transform="translate(1240 246)">
+        <g id="사각형_174-2" data-name="사각형 174" transform="translate(502 2891)" fill="#3659ea" stroke="#a2b5ff" stroke-width="8">
+          <rect width="183" height="72" rx="36" stroke="none"/>
+          <rect x="-4" y="-4" width="191" height="80" rx="40" fill="none"/>
+        </g>
+        <text id="Ecosystem_Participants" data-name="Ecosystem
+Participants" transform="translate(594 2922)" fill="#fff" font-size="20" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="-52.63" y="0">Ecosystem</tspan><tspan x="-60.69" y="26">Participants</tspan></text>
+      </g>
+      <g id="그룹_457" data-name="그룹 457" transform="translate(-8 62)">
+        <g id="그룹_393" data-name="그룹 393" transform="translate(4474 2941) rotate(90)">
+          <g id="그룹_356" data-name="그룹 356" transform="translate(-19 -6)">
+            <rect id="사각형_46" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+            <path id="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+          </g>
+        </g>
+        <text id="Mint_CLS" data-name="Mint CLS" transform="translate(1288 3059)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">Mint CLS</tspan></text>
+      </g>
+      <rect id="사각형_175" data-name="사각형 175" width="2" height="400" transform="translate(1170 3094)" fill="#f8f8f8"/>
+      <g id="그룹_440" data-name="그룹 440" transform="translate(340 63)">
+        <g id="그룹_393-2" data-name="그룹 393" transform="translate(4484 2941) rotate(90)">
+          <g id="그룹_356-2" data-name="그룹 356" transform="translate(-19 -6)">
+            <rect id="사각형_46-2" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+            <path id="next_ars-2" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+          </g>
+        </g>
+        <text id="CLS_Reward" data-name="CLS Reward" transform="translate(1276 3058)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">CLS Reward</tspan></text>
+      </g>
+      <g id="그룹_415" data-name="그룹 415" transform="translate(0 40)">
+        <rect id="사각형_161-2" data-name="사각형 161" width="200" height="60" rx="8" transform="translate(1396 3342)" fill="#fff"/>
+        <text id="Staking_Reward_Pool" data-name="Staking Reward
+Pool" transform="translate(1496 3368)" fill="#3659ea" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="-72.77" y="0">Staking Reward</tspan><tspan x="-20.73" y="24">Pool</tspan></text>
+      </g>
+      <g id="그룹_414" data-name="그룹 414">
+        <rect id="사각형_161-3" data-name="사각형 161" width="200" height="60" rx="8" transform="translate(1396 3502)" fill="#fff"/>
+        <text id="Treasury" transform="translate(1496 3540)" fill="#3659ea" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="-40.44" y="0">Treasury</tspan></text>
+      </g>
+      <g id="그룹_444" data-name="그룹 444" transform="translate(-1015.037 5157.691) rotate(-120)">
+        <rect id="사각형_164" data-name="사각형 164" width="2" height="116" transform="translate(111 3111)" fill="#f8f8f8"/>
+        <g id="그룹_356-3" data-name="그룹 356" transform="translate(-19 -6)">
+          <rect id="사각형_46-3" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+          <path id="next_ars-3" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+        </g>
+      </g>
+      <g id="그룹_404" data-name="그룹 404" transform="translate(1240 485)">
+        <g id="사각형_174-3" data-name="사각형 174" transform="translate(502 2891)" fill="#3659ea" stroke="#a2b5ff" stroke-width="8">
+          <rect width="183" height="72" rx="36" stroke="none"/>
+          <rect x="-4" y="-4" width="191" height="80" rx="40" fill="none"/>
+        </g>
+        <text id="CLS_Stakers" data-name="CLS Stakers" transform="translate(594 2935)" fill="#fff" font-size="20" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="-57.64" y="0">CLS Stakers</tspan></text>
+      </g>
+      <g id="그룹_406" data-name="그룹 406" transform="translate(1240 605)">
+        <g id="사각형_174-4" data-name="사각형 174" transform="translate(502 2891)" fill="none" stroke="#a2b5ff" stroke-width="8">
+          <rect width="183" height="72" rx="36" stroke="none"/>
+          <rect x="-4" y="-4" width="191" height="80" rx="40" fill="none"/>
+        </g>
+        <text id="Burn" transform="translate(594 2935)" fill="#fff" font-size="20" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="-24.4" y="0">Burn</tspan></text>
+      </g>
+      <g id="그룹_441" data-name="그룹 441" transform="translate(340 360)">
+        <g id="그룹_393-3" data-name="그룹 393" transform="translate(4484 2941) rotate(90)">
+          <g id="그룹_356-4" data-name="그룹 356" transform="translate(-19 -6)">
+            <rect id="사각형_46-4" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+            <path id="next_ars-4" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+          </g>
+        </g>
+        <text id="CLS_Reward-2" data-name="CLS Reward" transform="translate(1276 3058)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">CLS Reward</tspan></text>
+      </g>
+      <g id="그룹_442" data-name="그룹 442" transform="translate(330 481)">
+        <g id="그룹_393-4" data-name="그룹 393" transform="translate(4484 2941) rotate(90)">
+          <g id="그룹_356-5" data-name="그룹 356" transform="translate(-19 -6)">
+            <rect id="사각형_46-5" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+            <path id="next_ars-5" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+          </g>
+        </g>
+        <text id="CLS_Burn" data-name="CLS Burn" transform="translate(1296 3057)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">CLS Burn</tspan></text>
+      </g>
+      <g id="그룹_424" data-name="그룹 424" transform="translate(-18 420)">
+        <g id="그룹_393-5" data-name="그룹 393" transform="translate(4484 2941) rotate(90)">
+          <g id="그룹_356-6" data-name="그룹 356" transform="translate(-19 -6)">
+            <rect id="사각형_46-6" data-name="사각형 46" width="12" height="12" transform="translate(125 3120) rotate(-90)" fill="none"/>
+            <path id="next_ars-6" data-name="next_ars" d="M12.389,8.982,6.716,13.945A1.035,1.035,0,0,1,5,13.166V3.239A1.035,1.035,0,0,1,6.717,2.46l5.671,4.963a1.035,1.035,0,0,1,0,1.559Z" transform="translate(122.797 3122.742) rotate(-90)" fill="#f8f8f8"/>
+          </g>
+        </g>
+        <text id="Send_CLS" data-name="Send CLS" transform="translate(1295 3058)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">Send CLS</tspan></text>
+      </g>
+      <text id="Governance" transform="translate(1630.029 3493.696) rotate(-30)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">Governance</tspan></text>
+      <g id="그룹_416" data-name="그룹 416" transform="translate(0 -40)">
+        <rect id="사각형_161-4" data-name="사각형 161" width="200" height="60" rx="8" transform="translate(1396 3183)" fill="#fff"/>
+        <text id="Mining_Reward_Pool" data-name="Mining Reward
+Pool" transform="translate(1496 3209)" fill="#3659ea" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="-70.55" y="0">Mining Reward</tspan><tspan x="-20.73" y="24">Pool</tspan></text>
+      </g>
+      <g id="그룹_445" data-name="그룹 445" transform="translate(0 -20)">
+        <circle id="타원_16" data-name="타원 16" cx="78" cy="78" r="78" transform="translate(1093 3057)" fill="#fff"/>
+        <circle id="타원_6" data-name="타원 6" cx="72" cy="72" r="72" transform="translate(1099 3063)" fill="#3659ea"/>
+        <text id="Cala_Swap" data-name="Cala
+Swap" transform="translate(1171 3129)" fill="#fff" font-size="24" font-family="NotoSans-ExtraBold, Noto Sans" font-weight="800"><tspan x="-26.184" y="0">Cala</tspan><tspan x="-32.34" y="32">Swap</tspan></text>
+      </g>
+      <g id="그룹_447" data-name="그룹 447" transform="translate(0 337)">
+        <circle id="타원_16-2" data-name="타원 16" cx="78" cy="78" r="78" transform="translate(1093 3057)" fill="#a2b5ff"/>
+        <circle id="타원_6-2" data-name="타원 6" cx="72" cy="72" r="72" transform="translate(1099 3063)" fill="#3659ea"/>
+        <text id="Market" transform="translate(1171 3145)" fill="#fff" font-size="24" font-family="NotoSans-ExtraBold, Noto Sans" font-weight="800"><tspan x="-44.58" y="0">Market</tspan></text>
+      </g>
+      <text id="Buyback_CLS_with_Fees" data-name="Buyback CLS
+with Fees" transform="translate(1186 3288)" fill="#fff" font-size="16" font-family="NotoSans, Noto Sans"><tspan x="0" y="0">Buyback CLS</tspan><tspan x="0" y="24">with Fees</tspan></text>
+    </g>
+  </g>
+</svg>
