@@ -12,6 +12,7 @@
 -   [Bootstrap5.2.1](https://getbootstrap.com/)
 -   [Aos2.3.1](https://michalsnik.github.io/aos/)
 -   [wowjs3.0](https://wowjs.uk/)
+-   [Scss](https://sass-lang.com/)
 
 
 ## Preview
